@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
+    "gh-pages": "^1.1.0",
     "node-sass-chokidar": "^1.1.2",
     "npm-run-all": "^4.1.2",
     "react": "^16.2.0",
@@ -32,8 +33,11 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://rkiran16.github.io/online-restaurant",
   "lint-staged": {
     "*.{js,json,css,md}": ["prettier --write", "git add"]
   }
