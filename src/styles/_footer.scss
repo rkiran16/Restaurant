@@ -1,0 +1,141 @@
+footer {
+  background: #f0f0f0;
+  color: #333;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .location {
+    background: #fafafa;
+    text-align: center;
+
+    &:hover {
+      background: #f7c040;
+    }
+
+    a {
+      display: block;
+      color: #333;
+      font-weight: $font-weight-semibold;
+      font-size: 18px;
+      padding: 30px;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .copyright {
+    display: block;
+    padding: 30px 0;
+    text-align: center;
+    background: #e6e6e6;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+    box-sizing: border-box;
+
+    h5, h6 {
+      font-weight: $font-weight-semibold;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 10px 0;
+
+      li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+
+    .logo-container {
+      text-align: center;
+      margin-bottom: 30px;
+      .logo {
+        width: 104px;
+        height: 90px;
+      }
+    }
+
+    .hours-container {
+      .timings {
+        font-weight: $font-weight-normal;
+        margin-top: 10px;
+
+        span {
+          font-weight: $font-weight-light;
+          display: inline-block;
+          margin-left: 10px;
+        }
+
+        &--weekend {
+          margin-top: -10px;
+        }
+      }
+    }
+
+    .contacts-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+    }
+
+    .bottom-link {
+      display: none;
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 10px 0;
+
+        li {
+          display: inline-block;
+          margin-right: 10px;
+
+          a {
+             color: #333;
+          }
+        }
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+      margin: 0 auto;
+    }
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 1300px;
+      margin: 0 auto;
+      width: 100%;
+
+      .bottom-link {
+        display: flex;
+        flex-direction: column;
+
+        ul {
+          li {
+            display: block;
+          }
+        }
+      }
+
+      .logo-container {
+        .logo {
+          width: 112px;
+          height: 90px;
+        }
+      }
+
+      .contacts-container {
+        margin-top: 0;
+      }
+    }
+  }
+}
