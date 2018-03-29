@@ -46,6 +46,7 @@ $font-weight-bold: 700;
 
 html,body {
   font-family: 'Montserrat', 'Arial', 'Helvetica', 'sans-serif';
+  height: 100%;
 }
 
 
@@ -53,6 +54,7 @@ html,body {
 @import "link";
 @import "footer";
 @import "header";
+@import "menu";
 
 
 

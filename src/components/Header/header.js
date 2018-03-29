@@ -23,7 +23,7 @@ class Header extends Component {
               <Link to="/" className="link">
                 About Us
               </Link>
-              <Link to="/" className="link">
+              <Link to="/menu" className="link">
                 Menu
               </Link>
               <Link to="/" className="link">

@@ -8436,6 +8436,7 @@ a.text-gray-dark:hover {
 html,
 body {
   font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
+  height: 100%;
 }
 
 .link {
@@ -8737,4 +8738,41 @@ header .header-content .hamburger-container nav a:hover {
     margin-right: 0;
     margin-bottom: 15px;
   }
+}
+
+.menu-container {
+  background: url("../containers/menu/menubg.jpg ") no-repeat center fixed;
+  background-size: cover;
+  height: 1271px;
+}
+.menu-container .heading {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  color: #ffffff;
+}
+.menu-container .menu-wrapper {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 100%;
+}
+.menu-container .menu-wrapper .menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu-container .menu-wrapper .menu__item .title {
+  width: 90%;
+  display: inline-block;
+  position: relative;
+}
+.menu-container .menu-wrapper .menu__item .title:after {
+  content: "";
+  position: absolute;
+  background: radial-gradient(circle closest-side, #b3b3b3 99%, transparent 1%)
+    repeat-x bottom;
+  background-size: 6px 3px;
+  height: 15px;
+  width: 66%;
 }
