@@ -9,21 +9,7 @@ class Menu extends Component {
         <div className="menu-wrapper">
           <h2 className="">STARTERS</h2>
           <div className="row">
-            <div className="col-sm-12 col-md-6">
-              <ul className="menu">
-                <li className="menu__item">
-                  <h6>
-                    <span className="title">Campo Lindo Chicken</span>
-                    <span className="price">$24.95</span>
-                  </h6>
-                  <p class="menu-list__item-desc">
-                    <span class="desc__content">
-                      Fava beans, artchokes, farro &amp; black current gastrique
-                    </span>
-                  </p>
-                </li>
-              </ul>
-            </div>
+            <div className="col-sm-12 col-md-6" />
             <div className="col-sm-12 col-md-6" />
           </div>
         </div>

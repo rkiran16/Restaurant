@@ -8478,23 +8478,23 @@ footer .location {
   text-align: center;
 }
 footer .location:hover {
-  background: #f7c040;
+  background: rgba(238, 49, 36, 0.7);
 }
 footer .location a {
   display: block;
-  color: #333;
+  color: #333333;
   font-weight: 600;
   font-size: 18px;
   padding: 30px;
 }
 footer .location a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 footer .copyright {
   display: block;
   padding: 30px 0;
   text-align: center;
-  background: #e6e6e6;
+  background: #fafafa;
 }
 footer .footer-content {
   display: flex;
@@ -8721,7 +8721,7 @@ header .header-content .hamburger-container nav a {
   font-weight: 600;
 }
 header .header-content .hamburger-container nav a:before {
-  background-color: #333;
+  background-color: #333333;
 }
 header .header-content .hamburger-container nav a:hover {
   color: #333333;
@@ -8754,25 +8754,6 @@ header .header-content .hamburger-container nav a:hover {
 }
 .menu-container .menu-wrapper {
   background-color: #ffffff;
-  padding: 40px;
+  padding: 20px 10px;
   width: 100%;
-}
-.menu-container .menu-wrapper .menu {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.menu-container .menu-wrapper .menu__item .title {
-  width: 90%;
-  display: inline-block;
-  position: relative;
-}
-.menu-container .menu-wrapper .menu__item .title:after {
-  content: "";
-  position: absolute;
-  background: radial-gradient(circle closest-side, #b3b3b3 99%, transparent 1%)
-    repeat-x bottom;
-  background-size: 6px 3px;
-  height: 15px;
-  width: 66%;
 }
