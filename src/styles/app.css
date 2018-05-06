@@ -8588,6 +8588,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: -1px;
+  z-index: 1030;
 }
 header .header-content {
   max-width: 1200px;
@@ -8743,7 +8744,7 @@ header .header-content .hamburger-container nav a:hover {
 .menu-container {
   background: url("../containers/menu/menubg.jpg ") no-repeat center fixed;
   background-size: cover;
-  height: 1271px;
+  height: 100%;
 }
 .menu-container .heading {
   font-weight: 700;
@@ -8753,9 +8754,8 @@ header .header-content .hamburger-container nav a:hover {
   color: #ffffff;
 }
 .menu-container .menu-wrapper {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.75);
   padding: 20px 10px;
-  width: 100%;
 }
 
 .home .introduction {

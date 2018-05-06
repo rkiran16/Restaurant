@@ -1,13 +1,13 @@
 "use strict";
 var precacheConfig = [
-    ["/online-restaurant/index.html", "56a1847375ecee547758af412d8a52c3"],
+    ["/online-restaurant/index.html", "77bf4fba87e52ebecd33966dc123e020"],
     [
       "/online-restaurant/static/css/main.4e1d7f4f.css",
       "1493fa0632abbf89936d710c0d3b58ed"
     ],
     [
-      "/online-restaurant/static/js/main.da4a55c8.js",
-      "7b075d1bae63980ea98b67ee966450d9"
+      "/online-restaurant/static/js/main.954d9aa3.js",
+      "659a8ce36a0444028c130c95e5d414a7"
     ],
     [
       "/online-restaurant/static/media/logo.7d9695ad.png",

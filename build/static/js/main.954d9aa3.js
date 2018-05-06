@@ -10571,7 +10571,11 @@
           "main",
           null,
           o.a.createElement(s.a, null),
-          o.a.createElement(i.b, { exact: !0, path: "/", component: a.a }),
+          o.a.createElement(i.b, {
+            exact: !0,
+            path: "/online-restaurant",
+            component: a.a
+          }),
           o.a.createElement(i.b, { exact: !0, path: "/menu", component: u.a }),
           o.a.createElement(l.a, null)
         );
@@ -12187,4 +12191,4 @@
   function(e, t) {},
   function(e, t) {}
 ]);
-//# sourceMappingURL=main.da4a55c8.js.map
+//# sourceMappingURL=main.954d9aa3.js.map

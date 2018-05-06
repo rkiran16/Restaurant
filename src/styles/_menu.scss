@@ -1,7 +1,7 @@
 .menu-container {
   background: url("../containers/menu/menubg.jpg ") no-repeat center fixed;
   background-size: cover;
-  height: 1271px;
+  height: 100%;
 
   .heading {
      font-weight: $font-weight-bold;
@@ -12,8 +12,7 @@
   }
 
   .menu-wrapper {
-      background-color: $white;
+      background-color: rgba(255,255,255,0.75);
       padding: 20px 10px;
-      width: 100%;
   }
 }

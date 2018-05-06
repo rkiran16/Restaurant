@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header>
         <div className="header-content">
-          <Link to="/">
+          <Link to="/online-restaurant">
             <img className="logo" src={Logo} alt="Curry Bowl" />
           </Link>
           <div className="hamburger-container">
