@@ -8,7 +8,7 @@ import Header from "../../components/Header/header";
 const App = () => (
   <main>
     <Header />
-    <Route exact path="/" component={Home} />
+    <Route exact path="/online-restaurant" component={Home} />
     <Route exact path="/menu" component={Menu} />
     <Footer />
   </main>
