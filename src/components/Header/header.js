@@ -20,9 +20,6 @@ class Header extends Component {
               </div>
             </label>
             <nav>
-              <Link to="/" className="link">
-                About Us
-              </Link>
               <Link to="/menu" className="link">
                 Menu
               </Link>

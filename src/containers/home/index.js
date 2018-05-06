@@ -1,61 +1,53 @@
-import React from "react";
-import { push } from "react-router-redux";
-import { bindActionCreators } from "redux";
-import { connect } from "react-redux";
-import {
-  increment,
-  incrementAsync,
-  decrement,
-  decrementAsync
-} from "../../modules/counter";
+import React, { Component } from "react";
+import WOW from "wow.js";
+import homeBG from "./home-bg.jpg";
+import { Link } from "react-router-dom";
+import ourStoryImage from "./restaurant.jpg";
 
-const Home = props => (
-  <div>
-    <h1>Home</h1>
-    <p>Count: {props.count}</p>
+class Home extends Component {
+  componentDidMount() {
+    const wow = new WOW();
+    wow.init();
+  }
 
-    <p>
-      <button onClick={props.increment} disabled={props.isIncrementing}>
-        Increment
-      </button>
-      <button onClick={props.incrementAsync} disabled={props.isIncrementing}>
-        Increment Async
-      </button>
-    </p>
+  render() {
+    return (
+      <div className="home">
+        <div className="introduction">
+          <div className="content wow fadeInDown">
+            <h1 className="heading">Welcome to Curry Bowl</h1>
+            <p>
+              "Curry Bowl" is an authentic yet innovative Indian Restaurant,
+              with a menu that honors tradition while reinventing it.
+            </p>
+            <Link to="/menu" className="btn">
+              View Our Menu
+            </Link>
+          </div>
+        </div>
+        <div className="about">
+          <div className="content wow fadeInLeft">
+            <h3 className="heading">Our Story</h3>
+            <p>
+              Curry Bowl Indian Cuisine is family owned and operated. We
+              understand and strive on such importance of cultural taste and
+              diversity. We offer a full buffet for Indian dishes which varies
+              from day-to-day. There are over 100 Indian dishes served here,
+              that is why we encourage you to come again, so that you can
+              explore the many different taste we have to offer.
+            </p>
+            <p>
+              Our food “Curry Bowl” is simple, fresh and flavorful that appeals
+              to all of the FIVE SENSES.
+            </p>
+          </div>
+          <div className="image-container">
+            <img src={ourStoryImage} className="img-fluid" alt="Our Story" />
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
 
-    <p>
-      <button onClick={props.decrement} disabled={props.isDecrementing}>
-        Decrement
-      </button>
-      <button onClick={props.decrementAsync} disabled={props.isDecrementing}>
-        Decrement Async
-      </button>
-    </p>
-
-    <p>
-      <button onClick={() => props.changePage()}>
-        Go to about page via redux
-      </button>
-    </p>
-  </div>
-);
-
-const mapStateToProps = state => ({
-  count: state.counter.count,
-  isIncrementing: state.counter.isIncrementing,
-  isDecrementing: state.counter.isDecrementing
-});
-
-const mapDispatchToProps = dispatch =>
-  bindActionCreators(
-    {
-      increment,
-      incrementAsync,
-      decrement,
-      decrementAsync,
-      changePage: () => push("/about-us")
-    },
-    dispatch
-  );
-
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default Home;

@@ -1,0 +1,20 @@
+button, .btn {
+  appearance: none;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background: $bright-red;
+  color: white;
+  line-height: 1em;
+  padding: 0.875em 2em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: background 0.3s cubic-bezier(0, .5, .5, 1), color 0.3s cubic-bezier(0, .5, .5, 1);
+  cursor: pointer;
+
+  &:hover {
+     background-color: white;
+     color: black;
+  }
+}
