@@ -9,9 +9,19 @@ footer {
   .location {
     background: $very-light-gray;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 
     &:hover {
       background: rgba($bright-red, 0.7);
+    }
+
+    img {
+        width: 75px;
+        height: 80px;
+        display: flex;
+        align-self: center;
     }
 
     a {

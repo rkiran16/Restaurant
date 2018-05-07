@@ -30,11 +30,11 @@
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
     (t.p = "/online-restaurant/"),
-    t((t.s = 49));
+    t((t.s = 50));
 })([
   function(e, t, n) {
     "use strict";
-    e.exports = n(56);
+    e.exports = n(57);
   },
   function(e, t, n) {
     "use strict";
@@ -314,8 +314,8 @@
       n.d(t, "b", function() {
         return l;
       });
-    var r = n(35),
-      o = n(36),
+    var r = n(36),
+      o = n(37),
       i = n(5),
       a =
         Object.assign ||
@@ -423,11 +423,11 @@
   },
   function(e, t, n) {
     "use strict";
-    var r = (n(109), n(110), n(47));
+    var r = (n(109), n(110), n(48));
     n.d(t, "a", function() {
       return r.a;
     });
-    var o = (n(112), n(113), n(114), n(115), n(48));
+    var o = (n(112), n(113), n(114), n(115), n(49));
     n.d(t, "b", function() {
       return o.a;
     });
@@ -513,12 +513,12 @@
   },
   function(e, t, n) {
     "use strict";
-    var r = n(27),
+    var r = n(28),
       o = n(87),
       i = n(88),
       a = n(89),
-      u = n(30);
-    n(29);
+      u = n(31);
+    n(30);
     n.d(t, "e", function() {
       return r.b;
     }),
@@ -561,11 +561,11 @@
     n.d(t, "a", function() {
       return r.a;
     });
-    var o = (n(102), n(43));
+    var o = (n(102), n(44));
     n.d(t, "c", function() {
       return o.b;
     });
-    var i = (n(44), n(103));
+    var i = (n(45), n(103));
     n.d(t, "b", function() {
       return i.a;
     });
@@ -586,9 +586,9 @@
           }
           return e;
         },
-      i = n(35),
+      i = n(36),
       a = r(i),
-      u = n(36),
+      u = n(37),
       l = r(u),
       s = n(4);
     (t.createLocation = function(e, t, n, r) {
@@ -1040,7 +1040,7 @@
         );
       n || r !== b || ((n = !0), p(t, v));
     }
-    var m = n(52),
+    var m = n(53),
       v = null,
       b = {};
     (e.exports = u),
@@ -1057,6 +1057,17 @@
     "use strict";
     var r = {};
     e.exports = r;
+  },
+  function(e, t, n) {
+    "use strict";
+    var r = n(68),
+      o = (n(26), n(73));
+    n.d(t, "a", function() {
+      return r.a;
+    }),
+      n.d(t, "b", function() {
+        return o.a;
+      });
   },
   function(e, t, n) {
     "use strict";
@@ -1151,9 +1162,9 @@
         O = s.shouldHandleStateChanges,
         k = void 0 === O || O,
         T = s.storeKey,
-        S = void 0 === T ? "store" : T,
-        P = s.withRef,
-        _ = void 0 !== P && P,
+        P = void 0 === T ? "store" : T,
+        S = s.withRef,
+        _ = void 0 !== S && S,
         N = a(s, [
           "getDisplayName",
           "methodName",
@@ -1162,9 +1173,9 @@
           "storeKey",
           "withRef"
         ]),
-        j = S + "Subscription",
+        j = P + "Subscription",
         R = b++,
-        A = ((t = {}), (t[S] = m.a), (t[j] = m.b), t),
+        A = ((t = {}), (t[P] = m.a), (t[j] = m.b), t),
         I = ((n = {}), (n[j] = m.b), n);
       return function(t) {
         d()(
@@ -1181,7 +1192,7 @@
             methodName: E,
             renderCountProp: x,
             shouldHandleStateChanges: k,
-            storeKey: S,
+            storeKey: P,
             withRef: _,
             displayName: a,
             wrappedComponentName: n,
@@ -1195,17 +1206,17 @@
                 (i.version = R),
                 (i.state = {}),
                 (i.renderCount = 0),
-                (i.store = e[S] || t[S]),
-                (i.propsMode = Boolean(e[S])),
+                (i.store = e[P] || t[P]),
+                (i.propsMode = Boolean(e[P])),
                 (i.setWrappedInstance = i.setWrappedInstance.bind(i)),
                 d()(
                   i.store,
                   'Could not find "' +
-                    S +
+                    P +
                     '" in either the context or props of "' +
                     a +
                     '". Either wrap the root component in a <Provider>, or explicitly pass "' +
-                    S +
+                    P +
                     '" as a prop to "' +
                     a +
                     '".'
@@ -1321,13 +1332,13 @@
       };
     }
     t.a = s;
-    var c = n(26),
+    var c = n(27),
       f = n.n(c),
       p = n(3),
       d = n.n(p),
       h = n(0),
       y = (n.n(h), n(72)),
-      m = n(24),
+      m = n(25),
       v =
         Object.assign ||
         function(e) {
@@ -1566,7 +1577,7 @@
       };
     }
     (t.a = r), (t.b = i);
-    n(32);
+    n(33);
   },
   function(e, t, n) {
     "use strict";
@@ -1574,15 +1585,15 @@
   },
   function(e, t, n) {
     "use strict";
-    var r = (n(34), n(37), n(38), n(20), n(7));
+    var r = (n(35), n(38), n(39), n(20), n(7));
     n.d(t, "a", function() {
       return r.a;
     });
-    var o = (n(40), n(41), n(9));
+    var o = (n(41), n(42), n(9));
     n.d(t, "b", function() {
       return o.a;
     });
-    n(42);
+    n(43);
   },
   function(e, t, n) {
     "use strict";
@@ -2290,7 +2301,7 @@
       i = n.n(o),
       a = n(2),
       u = n.n(a),
-      l = n(26),
+      l = n(27),
       s = n.n(l),
       c = n(20),
       f =
@@ -2401,7 +2412,7 @@
       f = n(4),
       p = n(18),
       d = r(p),
-      h = n(46),
+      h = n(47),
       y = function() {
         try {
           return window.history.state || {};
@@ -2459,21 +2470,21 @@
               C.notifyListeners(z.location, z.action);
           },
           O = function(e) {
-            (0, h.isExtraneousPopstateEvent)(e) || S(w(e.state));
+            (0, h.isExtraneousPopstateEvent)(e) || P(w(e.state));
           },
           k = function() {
-            S(w(y()));
+            P(w(y()));
           },
           T = !1,
-          S = function(e) {
+          P = function(e) {
             if (T) (T = !1), x();
             else {
               C.confirmTransitionTo(e, "POP", m, function(t) {
-                t ? x({ action: "POP", location: e }) : P(e);
+                t ? x({ action: "POP", location: e }) : S(e);
               });
             }
           },
-          P = function(e) {
+          S = function(e) {
             var t = z.location,
               n = N.indexOf(t.key);
             -1 === n && (n = 0);
@@ -2784,13 +2795,13 @@
     t.a = r.a;
   },
   function(e, t, n) {
-    n(50), (e.exports = n(55));
+    n(51), (e.exports = n(56));
   },
   function(e, t, n) {
     "use strict";
     "undefined" === typeof Promise &&
-      (n(51).enable(), (window.Promise = n(53))),
-      n(54),
+      (n(52).enable(), (window.Promise = n(54))),
+      n(55),
       (Object.assign = n(12));
   },
   function(e, t, n) {
@@ -3362,8 +3373,8 @@
     Object.defineProperty(t, "__esModule", { value: !0 });
     var r = n(0),
       o = n.n(r),
-      i = n(57),
-      a = (n.n(i), n(67)),
+      i = n(58),
+      a = (n.n(i), n(24)),
       u = n(16),
       l = n(104),
       s = n(108),
@@ -3410,20 +3421,20 @@
       (this.props = e),
         (this.context = t),
         (this.refs = g),
-        (this.updater = n || P);
+        (this.updater = n || S);
     }
     function i(e, t, n) {
       (this.props = e),
         (this.context = t),
         (this.refs = g),
-        (this.updater = n || P);
+        (this.updater = n || S);
     }
     function a() {}
     function u(e, t, n) {
       (this.props = e),
         (this.context = t),
         (this.refs = g),
-        (this.updater = n || P);
+        (this.updater = n || S);
     }
     function l(e, t, n) {
       var r,
@@ -3516,7 +3527,7 @@
       else if (
         (null === e || "undefined" === typeof e
           ? (l = null)
-          : ((l = (S && e[S]) || e["@@iterator"]),
+          : ((l = (P && e[P]) || e["@@iterator"]),
             (l = "function" === typeof l ? l : null)),
         "function" === typeof l)
       )
@@ -3582,8 +3593,8 @@
       O = E ? Symbol.for("react.return") : 60105,
       k = E ? Symbol.for("react.portal") : 60106,
       T = E ? Symbol.for("react.fragment") : 60107,
-      S = "function" === typeof Symbol && Symbol.iterator,
-      P = {
+      P = "function" === typeof Symbol && Symbol.iterator,
+      S = {
         isMounted: function() {
           return !1;
         },
@@ -3705,7 +3716,7 @@
           console.error(e);
         }
     }
-    r(), (e.exports = n(58));
+    r(), (e.exports = n(59));
   },
   function(e, t, n) {
     "use strict";
@@ -3772,25 +3783,25 @@
       return e[1].toUpperCase();
     }
     function l(e, t, n, r, o, i, a, u, l) {
-      (Wn._hasCaughtError = !1), (Wn._caughtError = null);
+      (qn._hasCaughtError = !1), (qn._caughtError = null);
       var s = Array.prototype.slice.call(arguments, 3);
       try {
         t.apply(n, s);
       } catch (e) {
-        (Wn._caughtError = e), (Wn._hasCaughtError = !0);
+        (qn._caughtError = e), (qn._hasCaughtError = !0);
       }
     }
     function s() {
-      if (Wn._hasRethrowError) {
-        var e = Wn._rethrowError;
-        throw ((Wn._rethrowError = null), (Wn._hasRethrowError = !1), e);
+      if (qn._hasRethrowError) {
+        var e = qn._rethrowError;
+        throw ((qn._rethrowError = null), (qn._hasRethrowError = !1), e);
       }
     }
     function c() {
-      if (qn)
+      if (Wn)
         for (var e in Kn) {
           var t = Kn[e],
-            n = qn.indexOf(e);
+            n = Wn.indexOf(e);
           if ((-1 < n || r("96", e), !$n[n])) {
             t.extractEvents || r("97", e), ($n[n] = t), (n = t.eventTypes);
             for (var o in n) {
@@ -3816,7 +3827,7 @@
       Gn[e] && r("100", e), (Gn[e] = t), (Qn[e] = t.eventTypes[n].dependencies);
     }
     function p(e) {
-      qn && r("101"), (qn = Array.prototype.slice.call(e)), c();
+      Wn && r("101"), (Wn = Array.prototype.slice.call(e)), c();
     }
     function d(e) {
       var t,
@@ -3832,7 +3843,7 @@
     function h(e, t, n, r) {
       (t = e.type || "unknown-event"),
         (e.currentTarget = er(r)),
-        Wn.invokeGuardedCallbackAndCatchFirstError(t, n, void 0, e),
+        qn.invokeGuardedCallbackAndCatchFirstError(t, n, void 0, e),
         (e.currentTarget = null);
     }
     function y(e, t) {
@@ -3914,7 +3925,7 @@
     function x(e) {
       var t = tr;
       (tr = null),
-        t && (e ? m(t, b) : m(t, g), tr && r("95"), Wn.rethrowCaughtError());
+        t && (e ? m(t, b) : m(t, g), tr && r("95"), qn.rethrowCaughtError());
     }
     function O(e) {
       if (e[ir]) return e[ir];
@@ -3935,14 +3946,14 @@
     function T(e) {
       return e[ar] || null;
     }
-    function S(e) {
+    function P(e) {
       do {
         e = e.return;
       } while (e && 5 !== e.tag);
       return e || null;
     }
-    function P(e, t, n) {
-      for (var r = []; e; ) r.push(e), (e = S(e));
+    function S(e, t, n) {
+      for (var r = []; e; ) r.push(e), (e = P(e));
       for (e = r.length; 0 < e--; ) t(r[e], "captured", n);
       for (e = 0; e < r.length; e++) t(r[e], "bubbled", n);
     }
@@ -3952,12 +3963,12 @@
         (n._dispatchInstances = y(n._dispatchInstances, e)));
     }
     function N(e) {
-      e && e.dispatchConfig.phasedRegistrationNames && P(e._targetInst, _, e);
+      e && e.dispatchConfig.phasedRegistrationNames && S(e._targetInst, _, e);
     }
     function j(e) {
       if (e && e.dispatchConfig.phasedRegistrationNames) {
         var t = e._targetInst;
-        (t = t ? S(t) : null), P(t, _, e);
+        (t = t ? P(t) : null), S(t, _, e);
       }
     }
     function R(e, t, n) {
@@ -3977,14 +3988,14 @@
     function M(e, t, n, r) {
       if (n && r)
         e: {
-          for (var o = n, i = r, a = 0, u = o; u; u = S(u)) a++;
+          for (var o = n, i = r, a = 0, u = o; u; u = P(u)) a++;
           u = 0;
-          for (var l = i; l; l = S(l)) u++;
-          for (; 0 < a - u; ) (o = S(o)), a--;
-          for (; 0 < u - a; ) (i = S(i)), u--;
+          for (var l = i; l; l = P(l)) u++;
+          for (; 0 < a - u; ) (o = P(o)), a--;
+          for (; 0 < u - a; ) (i = P(i)), u--;
           for (; a--; ) {
             if (o === i || o === i.alternate) break e;
-            (o = S(o)), (i = S(i));
+            (o = P(o)), (i = P(i));
           }
           o = null;
         }
@@ -3994,9 +4005,9 @@
         n && n !== i && (null === (a = n.alternate) || a !== i);
 
       )
-        o.push(n), (n = S(n));
+        o.push(n), (n = P(n));
       for (n = []; r && r !== i && (null === (a = r.alternate) || a !== i); )
-        n.push(r), (r = S(r));
+        n.push(r), (r = P(r));
       for (r = 0; r < o.length; r++) R(o[r], "bubbled", e);
       for (e = n.length; 0 < e--; ) R(n[e], "captured", t);
     }
@@ -4068,10 +4079,10 @@
     function V(e, t, n, r) {
       return F.call(this, e, t, n, r);
     }
-    function W(e, t, n, r) {
+    function q(e, t, n, r) {
       return F.call(this, e, t, n, r);
     }
-    function q(e, t) {
+    function W(e, t) {
       switch (e) {
         case "topKeyUp":
           return -1 !== dr.indexOf(t.keyCode);
@@ -4104,7 +4115,7 @@
     }
     function Y(e, t) {
       if (Or)
-        return "topCompositionEnd" === e || (!hr && q(e, t))
+        return "topCompositionEnd" === e || (!hr && W(e, t))
           ? ((e = U()),
             (cr._root = null),
             (cr._startText = null),
@@ -4138,13 +4149,13 @@
       }
     }
     function Q(e) {
-      Sr ? (Pr ? Pr.push(e) : (Pr = [e])) : (Sr = e);
+      Pr ? (Sr ? Sr.push(e) : (Sr = [e])) : (Pr = e);
     }
     function X() {
-      if (Sr) {
-        var e = Sr,
-          t = Pr;
-        if (((Pr = Sr = null), G(e), t)) for (e = 0; e < t.length; e++) G(t[e]);
+      if (Pr) {
+        var e = Pr,
+          t = Sr;
+        if (((Sr = Pr = null), G(e), t)) for (e = 0; e < t.length; e++) G(t[e]);
       }
     }
     function J(e, t) {
@@ -4385,7 +4396,7 @@
       }
       return null;
     }
-    function Se(e) {
+    function Pe(e) {
       if (!(e = ke(e))) return null;
       for (var t = e; ; ) {
         if (5 === t.tag || 6 === t.tag) return t;
@@ -4401,7 +4412,7 @@
       }
       return null;
     }
-    function Pe(e) {
+    function Se(e) {
       var t = e.targetInst;
       do {
         if (!t) {
@@ -4415,7 +4426,7 @@
       } while (t);
       for (n = 0; n < e.ancestors.length; n++)
         (t = e.ancestors[n]),
-          Wr(e.topLevelType, t, e.nativeEvent, te(e.nativeEvent));
+          qr(e.topLevelType, t, e.nativeEvent, te(e.nativeEvent));
     }
     function _e(e) {
       Vr = !!e;
@@ -4442,7 +4453,7 @@
         } else
           e = { topLevelType: e, nativeEvent: t, targetInst: n, ancestors: [] };
         try {
-          Z(Pe, e);
+          Z(Se, e);
         } finally {
           (e.topLevelType = null),
             (e.nativeEvent = null),
@@ -4556,10 +4567,10 @@
         32 <= e || 13 === e ? e : 0
       );
     }
-    function We(e, t, n, r) {
+    function qe(e, t, n, r) {
       return F.call(this, e, t, n, r);
     }
-    function qe(e, t, n, r) {
+    function We(e, t, n, r) {
       return F.call(this, e, t, n, r);
     }
     function Ke(e, t, n, r) {
@@ -4582,7 +4593,7 @@
     }
     function Je(e, t) {
       var n = e.type.contextTypes;
-      if (!n) return Pn;
+      if (!n) return Sn;
       var r = e.stateNode;
       if (r && r.__reactInternalMemoizedUnmaskedChildContext === t)
         return r.__reactInternalMemoizedMaskedChildContext;
@@ -4618,7 +4629,7 @@
       if (!Ze(e)) return !1;
       var t = e.stateNode;
       return (
-        (t = (t && t.__reactInternalMemoizedMergedChildContext) || Pn),
+        (t = (t && t.__reactInternalMemoizedMergedChildContext) || Sn),
         (mo = ho.current),
         Qe(ho, t, e),
         Qe(yo, yo.current, e),
@@ -4907,7 +4918,7 @@
           var n = e.type,
             r = Xe(e),
             o = 2 === e.tag && null != e.type.contextTypes,
-            a = o ? Je(e, r) : Pn;
+            a = o ? Je(e, r) : Sn;
           return (
             (t = new n(t, a)),
             i(e, t),
@@ -4927,7 +4938,7 @@
           var l = Xe(e);
           (o.props = u),
             (o.state = e.memoizedState = i),
-            (o.refs = Pn),
+            (o.refs = Sn),
             (o.context = Je(e, l)),
             null != e.type &&
               null != e.type.prototype &&
@@ -5022,7 +5033,7 @@
           return null !== e && null !== e.ref && e.ref._stringRef === i
             ? e.ref
             : ((e = function(e) {
-                var t = o.refs === Pn ? (o.refs = {}) : o.refs;
+                var t = o.refs === Sn ? (o.refs = {}) : o.refs;
                 null === e ? delete t[i] : (t[i] = e);
               }),
               (e._stringRef = i),
@@ -5042,7 +5053,7 @@
           ""
         );
     }
-    function St(e) {
+    function Pt(e) {
       function t(t, n) {
         if (e) {
           var r = t.lastEffect;
@@ -5414,10 +5425,10 @@
         return n(e, o);
       };
     }
-    function Pt(e, t, n, o, i) {
+    function St(e, t, n, o, i) {
       function a(e, t, n) {
         var r = t.expirationTime;
-        t.child = null === e ? Po(t, null, n, r) : So(t, e.child, n, r);
+        t.child = null === e ? So(t, null, n, r) : Po(t, e.child, n, r);
       }
       function u(e, t) {
         var n = t.ref;
@@ -5562,7 +5573,7 @@
                       : ((o = i.element),
                         (O = t.stateNode),
                         (null === e || null === e.child) && O.hydrate && v(t)
-                          ? ((t.effectTag |= 2), (t.child = Po(t, null, o, n)))
+                          ? ((t.effectTag |= 2), (t.child = So(t, null, o, n)))
                           : (b(), a(e, t, o)),
                         (t.memoizedState = i),
                         (t = t.child)))
@@ -5608,8 +5619,8 @@
                 (o = i.children),
                 (t.stateNode =
                   null === e
-                    ? Po(t, t.stateNode, o, n)
-                    : So(t, t.stateNode, o, n)),
+                    ? So(t, t.stateNode, o, n)
+                    : Po(t, t.stateNode, o, n)),
                 (t.memoizedProps = i),
                 t.stateNode
               );
@@ -5627,7 +5638,7 @@
                   t = c(e, t);
                   break e;
                 }
-                null === e ? (t.child = So(t, null, i, n)) : a(e, t, i),
+                null === e ? (t.child = Po(t, null, i, n)) : a(e, t, i),
                   (t.memoizedProps = i),
                   (t = t.child);
               }
@@ -5668,7 +5679,7 @@
               : ((t.firstEffect = null),
                 (t.lastEffect = null),
                 (t.child =
-                  null === e ? Po(t, null, null, n) : So(t, e.child, null, n)),
+                  null === e ? So(t, null, null, n) : Po(t, e.child, null, n)),
                 2 === t.tag &&
                   ((e = t.stateNode),
                   (t.memoizedProps = e.props),
@@ -5794,7 +5805,7 @@
                 return (
                   (C = c.handler),
                   (c = C(c.props, E)),
-                  (t.child = So(t, null !== e ? e.child : null, c, n)),
+                  (t.child = Po(t, null !== e ? e.child : null, c, n)),
                   t.child
                 );
               case 8:
@@ -6213,7 +6224,7 @@
             var n = e.firstEffect;
           } else n = e;
         else n = e.firstEffect;
-        for (W(), Z = n; null !== Z; ) {
+        for (q(), Z = n; null !== Z; ) {
           var o = !1,
             i = void 0;
           try {
@@ -6244,7 +6255,7 @@
           o &&
             (null === Z && r("178"), l(Z, i), null !== Z && (Z = Z.nextEffect));
         }
-        for (q(), t.current = e, Z = n; null !== Z; ) {
+        for (W(), t.current = e, Z = n; null !== Z; ) {
           (n = !1), (o = void 0);
           try {
             for (; null !== Z; ) {
@@ -6355,10 +6366,10 @@
           e !== X || t !== J || null === Q)
         ) {
           for (; -1 < po; ) (fo[po] = null), po--;
-          (mo = Pn),
-            (ho.current = Pn),
+          (mo = Sn),
+            (ho.current = Sn),
             (yo.current = !1),
-            P(),
+            S(),
             (X = e),
             (J = t),
             (Q = at(X.current, null, t));
@@ -6387,7 +6398,7 @@
                       et(u);
                       break;
                     case 5:
-                      S(u);
+                      P(u);
                       break;
                     case 3:
                       T(u);
@@ -6652,9 +6663,9 @@
       var O = jt(e),
         k = Rt(e),
         T = O.popHostContainer,
-        S = O.popHostContext,
-        P = O.resetHostContainer,
-        _ = Pt(e, O, k, d, p),
+        P = O.popHostContext,
+        S = O.resetHostContainer,
+        _ = St(e, O, k, d, p),
         N = _.beginWork,
         j = _.beginFailedWork,
         R = _t(e, O, k).completeWork;
@@ -6670,8 +6681,8 @@
         B = e.scheduleDeferredCallback,
         z = e.cancelDeferredCallback,
         V = e.useSyncScheduling,
-        W = e.prepareForCommit,
-        q = e.resetAfterCommit,
+        q = e.prepareForCommit,
+        W = e.resetAfterCommit,
         K = H(),
         $ = 2,
         Y = 0,
@@ -6806,7 +6817,7 @@
               s = s.stateNode.context;
             }
             n = Ze(n) ? nt(n, s) : s;
-          } else n = Pn;
+          } else n = Sn;
           null === t.context ? (t.context = n) : (t.pendingContext = n),
             (t = u),
             (t = void 0 === t ? null : t),
@@ -6843,7 +6854,7 @@
         },
         findHostInstance: t,
         findHostInstanceWithNoPortals: function(e) {
-          return (e = Se(e)), null === e ? null : e.stateNode;
+          return (e = Pe(e)), null === e ? null : e.stateNode;
         },
         injectIntoDevTools: function(e) {
           var n = e.findFiberByHostInstance;
@@ -6956,7 +6967,7 @@
             null != t.defaultChecked &&
             (e.defaultChecked = !!t.defaultChecked));
     }
-    function Wt(e, t) {
+    function qt(e, t) {
       switch (t.type) {
         case "submit":
         case "reset":
@@ -6979,7 +6990,7 @@
         (e.defaultChecked = !e.defaultChecked),
         "" !== t && (e.name = t);
     }
-    function qt(e) {
+    function Wt(e) {
       var t = "";
       return (
         gn.Children.forEach(e, function(e) {
@@ -6993,7 +7004,7 @@
     function Kt(e, t) {
       return (
         (e = En({ children: void 0 }, t)),
-        (t = qt(t.children)) && (e.children = t),
+        (t = Wt(t.children)) && (e.children = t),
         e
       );
     }
@@ -7247,7 +7258,7 @@
         }
       switch (t) {
         case "input":
-          ie(e), Wt(e, n);
+          ie(e), qt(e, n);
           break;
         case "textarea":
           ie(e), Jt(e, n);
@@ -7422,7 +7433,7 @@
             : Gn.hasOwnProperty(a) && null != i && an(o, a));
       switch (t) {
         case "input":
-          ie(e), Wt(e, n);
+          ie(e), qt(e, n);
           break;
         case "textarea":
           ie(e), Jt(e, n);
@@ -7480,15 +7491,15 @@
       this._reactRootContainer = li.createContainer(e, t);
     }
     var gn = n(0),
-      wn = n(59),
+      wn = n(60),
       En = n(12),
       Cn = n(6),
-      xn = n(60),
-      On = n(61),
-      kn = n(62),
-      Tn = n(63),
-      Sn = n(66),
-      Pn = n(23);
+      xn = n(61),
+      On = n(62),
+      kn = n(63),
+      Tn = n(64),
+      Pn = n(67),
+      Sn = n(23);
     gn || r("227");
     var _n = {
         children: !0,
@@ -7649,7 +7660,7 @@
       }),
       Rn.injectDOMPropertyConfig(Fn),
       Rn.injectDOMPropertyConfig(zn);
-    var Wn = {
+    var qn = {
         _caughtError: null,
         _hasCaughtError: !1,
         _rethrowError: null,
@@ -7661,7 +7672,7 @@
           }
         },
         invokeGuardedCallback: function(e, t, n, r, o, i, a, u, s) {
-          l.apply(Wn, arguments);
+          l.apply(qn, arguments);
         },
         invokeGuardedCallbackAndCatchFirstError: function(
           e,
@@ -7675,29 +7686,29 @@
           l
         ) {
           if (
-            (Wn.invokeGuardedCallback.apply(this, arguments),
-            Wn.hasCaughtError())
+            (qn.invokeGuardedCallback.apply(this, arguments),
+            qn.hasCaughtError())
           ) {
-            var s = Wn.clearCaughtError();
-            Wn._hasRethrowError ||
-              ((Wn._hasRethrowError = !0), (Wn._rethrowError = s));
+            var s = qn.clearCaughtError();
+            qn._hasRethrowError ||
+              ((qn._hasRethrowError = !0), (qn._rethrowError = s));
           }
         },
         rethrowCaughtError: function() {
-          return s.apply(Wn, arguments);
+          return s.apply(qn, arguments);
         },
         hasCaughtError: function() {
-          return Wn._hasCaughtError;
+          return qn._hasCaughtError;
         },
         clearCaughtError: function() {
-          if (Wn._hasCaughtError) {
-            var e = Wn._caughtError;
-            return (Wn._caughtError = null), (Wn._hasCaughtError = !1), e;
+          if (qn._hasCaughtError) {
+            var e = qn._caughtError;
+            return (qn._caughtError = null), (qn._hasCaughtError = !1), e;
           }
           r("198");
         }
       },
-      qn = null,
+      Wn = null,
       Kn = {},
       $n = [],
       Yn = {},
@@ -7814,7 +7825,7 @@
       }),
       z(F),
       F.augmentClass(V, { data: null }),
-      F.augmentClass(W, { data: null });
+      F.augmentClass(q, { data: null });
     var dr = [9, 13, 27, 32],
       hr = wn.canUseDOM && "CompositionEvent" in window,
       yr = null;
@@ -7896,7 +7907,7 @@
             }
           else
             Or
-              ? q(e, n) && (i = Cr.compositionEnd)
+              ? W(e, n) && (i = Cr.compositionEnd)
               : "topKeyDown" === e &&
                 229 === n.keyCode &&
                 (i = Cr.compositionStart);
@@ -7912,15 +7923,15 @@
                 (o = i))
               : (o = null),
             (e = gr ? $(e, n) : Y(e, n))
-              ? ((t = W.getPooled(Cr.beforeInput, t, n, r)), (t.data = e), I(t))
+              ? ((t = q.getPooled(Cr.beforeInput, t, n, r)), (t.data = e), I(t))
               : (t = null),
             [o, t]
           );
         }
       },
       Tr = null,
-      Sr = null,
       Pr = null,
+      Sr = null,
       _r = {
         injectFiberControlledHostComponent: function(e) {
           Tr = e;
@@ -8080,16 +8091,16 @@
         gn.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,
       zr = [],
       Vr = !0,
-      Wr = void 0,
-      qr = Object.freeze({
+      qr = void 0,
+      Wr = Object.freeze({
         get _enabled() {
           return Vr;
         },
         get _handleTopLevel() {
-          return Wr;
+          return qr;
         },
         setHandleTopLevel: function(e) {
-          Wr = e;
+          qr = e;
         },
         setEnabled: _e,
         isEnabled: function() {
@@ -8315,7 +8326,7 @@
         145: "ScrollLock",
         224: "Meta"
       };
-    ve.augmentClass(We, {
+    ve.augmentClass(qe, {
       key: function(e) {
         if (e.key) {
           var t = ao[e.key] || e.key;
@@ -8347,7 +8358,7 @@
           : "keydown" === e.type || "keyup" === e.type ? e.keyCode : 0;
       }
     }),
-      we.augmentClass(qe, { dataTransfer: null }),
+      we.augmentClass(We, { dataTransfer: null }),
       ve.augmentClass(Ke, {
         touches: null,
         targetTouches: null,
@@ -8404,7 +8415,7 @@
             if (0 === Ve(n)) return null;
           case "topKeyDown":
           case "topKeyUp":
-            e = We;
+            e = qe;
             break;
           case "topBlur":
           case "topFocus":
@@ -8429,7 +8440,7 @@
           case "topDragOver":
           case "topDragStart":
           case "topDrop":
-            e = qe;
+            e = We;
             break;
           case "topTouchCancel":
           case "topTouchEnd":
@@ -8462,7 +8473,7 @@
         return (t = e.getPooled(o, t, n, r)), I(t), t;
       }
     };
-    (Wr = function(e, t, n, r) {
+    (qr = function(e, t, n, r) {
       (e = E(e, t, n, r)), C(e), x(!1);
     }),
       nr.injectEventPluginOrder(
@@ -8483,9 +8494,9 @@
     var fo = [],
       po = -1;
     new Set();
-    var ho = { current: Pn },
+    var ho = { current: Sn },
       yo = { current: !1 },
-      mo = Pn,
+      mo = Sn,
       vo = null,
       bo = null,
       go = "function" === typeof Symbol && Symbol.for,
@@ -8496,8 +8507,8 @@
       Oo = go ? Symbol.for("react.fragment") : 60107,
       ko = "function" === typeof Symbol && Symbol.iterator,
       To = Array.isArray,
-      So = St(!0),
-      Po = St(!1),
+      Po = Pt(!0),
+      So = Pt(!1),
       _o = {},
       No = Object.freeze({ default: It }),
       jo = (No && It) || No,
@@ -8527,7 +8538,7 @@
           Bo = !1,
           zo = 0,
           Vo = 33,
-          Wo = 33;
+          qo = 33;
         Uo = Ao
           ? {
               didTimeout: !1,
@@ -8543,7 +8554,7 @@
                 return 0 < e ? e : 0;
               }
             };
-        var qo =
+        var Wo =
           "__reactIdleCallback$" +
           Math.random()
             .toString(36)
@@ -8551,7 +8562,7 @@
         window.addEventListener(
           "message",
           function(e) {
-            if (e.source === window && e.data === qo) {
+            if (e.source === window && e.data === Wo) {
               if (((Fo = !1), (e = Io()), 0 >= zo - e)) {
                 if (!(-1 !== Ho && Ho <= e))
                   return void (Bo || ((Bo = !0), requestAnimationFrame(Ko)));
@@ -8564,12 +8575,12 @@
         );
         var Ko = function(e) {
           Bo = !1;
-          var t = e - zo + Wo;
-          t < Wo && Vo < Wo
-            ? (8 > t && (t = 8), (Wo = t < Vo ? Vo : t))
+          var t = e - zo + qo;
+          t < qo && Vo < qo
+            ? (8 > t && (t = 8), (qo = t < Vo ? Vo : t))
             : (Vo = t),
-            (zo = e + Wo),
-            Fo || ((Fo = !0), window.postMessage(qo, "*"));
+            (zo = e + qo),
+            Fo || ((Fo = !0), window.postMessage(Wo, "*"));
         };
         (Mo = function(e, t) {
           return (
@@ -8892,7 +8903,7 @@
             for (t = [], e = n; (e = e.parentNode); )
               1 === e.nodeType &&
                 t.push({ element: e, left: e.scrollLeft, top: e.scrollTop });
-            for (Sn(n), n = 0; n < t.length; n++)
+            for (Pn(n), n = 0; n < t.length; n++)
               (e = t[n]),
                 (e.element.scrollLeft = e.left),
                 (e.element.scrollTop = e.top);
@@ -9065,7 +9076,7 @@
         EventPropagators: lr,
         ReactControlledComponent: Nr,
         ReactDOMComponentTree: ur,
-        ReactDOMEventListener: qr
+        ReactDOMEventListener: Wr
       }
     };
     li.injectIntoDevTools({
@@ -9187,7 +9198,7 @@
                   !!(16 & e.compareDocumentPosition(t)))))
       );
     }
-    var o = n(64);
+    var o = n(65);
     e.exports = r;
   },
   function(e, t, n) {
@@ -9195,7 +9206,7 @@
     function r(e) {
       return o(e) && 3 == e.nodeType;
     }
-    var o = n(65);
+    var o = n(66);
     e.exports = r;
   },
   function(e, t, n) {
@@ -9222,14 +9233,6 @@
       } catch (e) {}
     }
     e.exports = r;
-  },
-  function(e, t, n) {
-    "use strict";
-    var r = n(68);
-    n(25), n(73);
-    n.d(t, "a", function() {
-      return r.a;
-    });
   },
   function(e, t, n) {
     "use strict";
@@ -9265,7 +9268,7 @@
     var a = n(0),
       u = (n.n(a), n(2)),
       l = n.n(u),
-      s = n(24);
+      s = n(25);
     n(13);
     t.a = (function() {
       var e,
@@ -9480,7 +9483,7 @@
     function i(e, t) {
       return e === t;
     }
-    var a = n(25),
+    var a = n(26),
       u = n(74),
       l = n(75),
       s = n(90),
@@ -9496,15 +9499,64 @@
           }
           return e;
         };
-    !(function() {
+    t.a = (function() {
       var e =
           arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
         t = e.connectHOC,
-        n = (void 0 === t && a.a, e.mapStateToPropsFactories),
-        r = (void 0 === n && s.a, e.mapDispatchToPropsFactories),
-        o = (void 0 === r && l.a, e.mergePropsFactories),
-        i = (void 0 === o && c.a, e.selectorFactory);
-      void 0 === i && f.a;
+        n = void 0 === t ? a.a : t,
+        d = e.mapStateToPropsFactories,
+        h = void 0 === d ? s.a : d,
+        y = e.mapDispatchToPropsFactories,
+        m = void 0 === y ? l.a : y,
+        v = e.mergePropsFactories,
+        b = void 0 === v ? c.a : v,
+        g = e.selectorFactory,
+        w = void 0 === g ? f.a : g;
+      return function(e, t, a) {
+        var l =
+            arguments.length > 3 && void 0 !== arguments[3] ? arguments[3] : {},
+          s = l.pure,
+          c = void 0 === s || s,
+          f = l.areStatesEqual,
+          d = void 0 === f ? i : f,
+          y = l.areOwnPropsEqual,
+          v = void 0 === y ? u.a : y,
+          g = l.areStatePropsEqual,
+          E = void 0 === g ? u.a : g,
+          C = l.areMergedPropsEqual,
+          x = void 0 === C ? u.a : C,
+          O = r(l, [
+            "pure",
+            "areStatesEqual",
+            "areOwnPropsEqual",
+            "areStatePropsEqual",
+            "areMergedPropsEqual"
+          ]),
+          k = o(e, h, "mapStateToProps"),
+          T = o(t, m, "mapDispatchToProps"),
+          P = o(a, b, "mergeProps");
+        return n(
+          w,
+          p(
+            {
+              methodName: "connect",
+              getDisplayName: function(e) {
+                return "Connect(" + e + ")";
+              },
+              shouldHandleStateChanges: Boolean(e),
+              initMapStateToProps: k,
+              initMapDispatchToProps: T,
+              initMergeProps: P,
+              pure: c,
+              areStatesEqual: d,
+              areOwnPropsEqual: v,
+              areStatePropsEqual: E,
+              areMergedPropsEqual: x
+            },
+            O
+          )
+        );
+      };
     })();
   },
   function(e, t, n) {
@@ -9555,7 +9607,7 @@
         : void 0;
     }
     var a = n(14),
-      u = n(31);
+      u = n(32);
     t.a = [r, o, i];
   },
   function(e, t, n) {
@@ -9565,7 +9617,7 @@
         ? void 0 === e ? l : u
         : s && s in Object(e) ? Object(i.a)(e) : Object(a.a)(e);
     }
-    var o = n(28),
+    var o = n(29),
       i = n(79),
       a = n(80),
       u = "[object Null]",
@@ -9599,7 +9651,7 @@
       var o = u.call(e);
       return r && (t ? (e[l] = n) : delete e[l]), o;
     }
-    var o = n(28),
+    var o = n(29),
       i = Object.prototype,
       a = i.hasOwnProperty,
       u = i.toString,
@@ -9765,8 +9817,8 @@
       };
     }
     t.a = i;
-    var a = n(27);
-    n(15), n(29);
+    var a = n(28);
+    n(15), n(30);
   },
   function(e, t, n) {
     "use strict";
@@ -9819,7 +9871,7 @@
       };
     }
     t.a = r;
-    var o = n(30),
+    var o = n(31),
       i =
         Object.assign ||
         function(e) {
@@ -9845,7 +9897,7 @@
             return {};
           });
     }
-    var i = n(31);
+    var i = n(32);
     t.a = [r, o];
   },
   function(e, t, n) {
@@ -9875,7 +9927,7 @@
             return r;
           };
     }
-    var u = (n(32),
+    var u = (n(33),
     Object.assign ||
       function(e) {
         for (var t = 1; t < arguments.length; t++) {
@@ -10004,8 +10056,8 @@
       u = n.n(a),
       l = n(2),
       s = n.n(l),
-      c = n(33),
-      f = n(43),
+      c = n(34),
+      f = n(44),
       p = (function(e) {
         function t() {
           var n, i, a;
@@ -10172,12 +10224,12 @@
             var t = _.index + e;
             return t >= 0 && t < _.entries.length;
           },
-          S = function() {
+          P = function() {
             var e =
               arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
             return y.setPrompt(e);
           },
-          P = function(e) {
+          S = function(e) {
             return y.appendListener(e);
           },
           _ = {
@@ -10193,8 +10245,8 @@
             goBack: O,
             goForward: k,
             canGo: T,
-            block: S,
-            listen: P
+            block: P,
+            listen: S
           };
         return _;
       };
@@ -10219,7 +10271,7 @@
       n(8),
       n(5),
       n(19),
-      n(39),
+      n(40),
       "function" === typeof Symbol && Symbol.iterator,
       Object.assign;
   },
@@ -10228,7 +10280,7 @@
     var r = n(1),
       o = (n.n(r), n(3)),
       i = (n.n(o), n(8), n(5));
-    n(19), n(39), Object.assign, i.f, i.a, i.a, i.a;
+    n(19), n(40), Object.assign, i.f, i.a, i.a, i.a;
   },
   function(e, t, n) {
     "use strict";
@@ -10468,7 +10520,7 @@
   },
   function(e, t, n) {
     "use strict";
-    n(33);
+    n(34);
   },
   function(e, t, n) {
     "use strict";
@@ -10486,7 +10538,7 @@
       };
     }
     t.a = r;
-    var o = n(44);
+    var o = n(45);
   },
   function(e, t, n) {
     "use strict";
@@ -10497,7 +10549,7 @@
       o = n(16),
       i = n(105),
       a = n.n(i),
-      u = n(45),
+      u = n(46),
       l = n.n(u),
       s = n(106),
       c = l()(),
@@ -10533,28 +10585,203 @@
   },
   function(e, t, n) {
     "use strict";
-    var r = { count: 0, isIncrementing: !1, isDecrementing: !1 };
+    var r = {
+      count: 1,
+      menu: [
+        {
+          title: "Starters",
+          category: {
+            subCategory: [
+              {
+                name: "VEGETARIAN APPETIZER",
+                items: [
+                  {
+                    itemName: "Chilli Bajji",
+                    description:
+                      "Chilies battered and deep fried with desi style",
+                    price: "$5.95"
+                  },
+                  {
+                    itemName: "Curry Bowl Veg Platter",
+                    description:
+                      "Combination of cut mirchi, cutlet, pakora, samosa and vada",
+                    price: "$8.95"
+                  },
+                  {
+                    itemName: "Cut Mirchi",
+                    description:
+                      "Chillibajji refried and sprinkled with onions, chat masala",
+                    price: "$5.95"
+                  },
+                  {
+                    itemName: "Mixed Vegetable Pakora",
+                    description:
+                      "Fresh mixed vegetables coated with chickpeas flour and deep fried",
+                    price: "$4.95"
+                  },
+                  {
+                    itemName: "Onion Pakora",
+                    description:
+                      "Freshly sliced onions coated with chickpeas flour and deep fried",
+                    price: "$3.99"
+                  },
+                  {
+                    itemName: "Spinach Pakora",
+                    description:
+                      "Fresh spinach coated with chickpeas flourand deep fried",
+                    price: "$3.95"
+                  },
+                  {
+                    itemName: "Vegetable Cutlet",
+                    description: "",
+                    price: "$5.95"
+                  },
+                  {
+                    itemName: "Vegetable Samosa",
+                    description:
+                      "Crispy turnovers with seasoned potatoes and green peas",
+                    price: "$3.95"
+                  }
+                ]
+              },
+              {
+                name: "NON-VEGETARIAN APPETIZER",
+                items: [
+                  {
+                    itemName: "Egg Pakora",
+                    description:
+                      "Fresh boiled eggs coated with chickpea flour and deep fried",
+                    price: "$6.99"
+                  },
+                  {
+                    itemName: "Chicken Pakora",
+                    description:
+                      "Succulent pieces of chicken marinated overnight in an exquisite blend of masalas, cooked in a tandoori oven, then dipped in batter and deep-fried",
+                    price: "$8.99"
+                  },
+                  {
+                    itemName: "Goat Sukka",
+                    description:
+                      "The goat meat (mutton ) is cooked with spicy masala powders to lipsmacking dry fry.",
+                    price: "$13.99"
+                  },
+                  {
+                    itemName: "Tawa Fish (New)",
+                    description:
+                      "Small pieces of fish seasoned in yogurt and fresh herbs skewered and grilled in tandoor",
+                    price: "$13.99"
+                  },
+                  {
+                    itemName: "Tandoori Chicken Half",
+                    description:
+                      "Chicken marinated in exotically spiced yogurt and cooked to perfection in a tandoor oven",
+                    price: "$9.99"
+                  },
+                  {
+                    itemName: "Tandoori Chicken Full",
+                    description:
+                      "Chicken marinated in exotically spiced yogurt and cooked to perfection in a tandoor oven",
+                    price: "$15.99"
+                  },
+                  {
+                    itemName: "Chicken Tikka",
+                    description:
+                      "Succulent cubes of boneless white chicken marinated in yogurt and mild spices",
+                    price: "$12.99"
+                  },
+                  {
+                    itemName: "Chicken Malai Kabab",
+                    description:
+                      "Tender boneless pieces of chicken breast marinated in sour cream and Curry Bowl special spices",
+                    price: "$12.99"
+                  },
+                  {
+                    itemName: "Curry Bowl (Sp*)",
+                    description:
+                      "Tandoori Platter Combination of chicken malai kabab, chicken tikka, tandoori chicken and shrimp ",
+                    price: "$16.99"
+                  },
+                  {
+                    itemName: "Tandoori Shrimps",
+                    description:
+                      "King-size shrimp marinated in mild spices & curry bowl special herbs",
+                    price: "$14.99"
+                  },
+                  {
+                    itemName: "Curry Bowl Tandoori Fish (Sp*)",
+                    description:
+                      "Fish marinated in yogurt and exotic Indian spices then cooked on a skewer",
+                    price: "$13.99"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          title: "Indo-Chinese",
+          category: {
+            subCategory: [
+              {
+                items: [
+                  {
+                    itemName: "Gobi Manchurian",
+                    description:
+                      "Butter Fried cauliflower with ginger, garlic and onion",
+                    price: "$9.99"
+                  },
+                  {
+                    itemName: "Honey Chilli Cauliflower",
+                    description:
+                      "Butter fried cauliflower with honey and chilies",
+                    price: "$9.99"
+                  },
+                  {
+                    itemName: "Baby Corn Manchuria",
+                    description:
+                      "Baby Corn coated with Chinese batter, deep fried and tossed with manchurian sauce",
+                    price: "$9.99"
+                  },
+                  {
+                    itemName: "Baby Corn Pepper Fry",
+                    description:
+                      "Batter fried baby corn sauteed in pepper sauce",
+                    price: "$9.99"
+                  },
+                  {
+                    itemName: "Paneer 65",
+                    description:
+                      "Butter fried paneer cooked with ginger, garlic, yogurt and spices",
+                    price: "$10.99"
+                  },
+                  {
+                    itemName: "Chilli Paneer",
+                    description:
+                      "Butter fried pepper with ginger, garlic & onion",
+                    price: "$10.99"
+                  },
+                  {
+                    itemName: "Noodles Veg",
+                    description:
+                      "Win tossed noodles with ginger, garlic and soya sauce",
+                    price: "$9.99"
+                  },
+                  {
+                    itemName: "Veg Fried Rice",
+                    description: "",
+                    price: "$9.99"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    };
     t.a = function() {
       var e =
         arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : r;
-      switch (arguments[1].type) {
-        case "counter/INCREMENT_REQUESTED":
-          return Object.assign({}, e, { isIncrementing: !0 });
-        case "counter/INCREMENT":
-          return Object.assign({}, e, {
-            count: e.count + 1,
-            isIncrementing: !e.isIncrementing
-          });
-        case "counter/DECREMENT_REQUESTED":
-          return Object.assign({}, e, { isDecrementing: !0 });
-        case "counter/DECREMENT":
-          return Object.assign({}, e, {
-            count: e.count - 1,
-            isDecrementing: !e.isDecrementing
-          });
-        default:
-          return e;
-      }
+      return arguments[1].type, e;
     };
   },
   function(e, t, n) {
@@ -10571,6 +10798,7 @@
           "main",
           null,
           o.a.createElement(s.a, null),
+          o.a.createElement(i.b, { exact: !0, path: "/", component: a.a }),
           o.a.createElement(i.b, {
             exact: !0,
             path: "/online-restaurant",
@@ -10619,7 +10847,7 @@
       s = n.n(l),
       c = n(2),
       f = n.n(c),
-      p = n(45),
+      p = n(46),
       d = n.n(p),
       h = n(21),
       y = (function(e) {
@@ -10761,7 +10989,7 @@
       c = n(4),
       f = n(18),
       p = r(f),
-      d = n(46),
+      d = n(47),
       h = {
         hashbang: {
           encodePath: function(e) {
@@ -10824,25 +11052,25 @@
           },
           x = (0, p.default)(),
           O = function(e) {
-            o(q, e),
-              (q.length = t.length),
-              x.notifyListeners(q.location, q.action);
+            o(W, e),
+              (W.length = t.length),
+              x.notifyListeners(W.location, W.action);
           },
           k = !1,
           T = null,
-          S = function() {
+          P = function() {
             var e = y(),
               t = w(e);
             if (e !== t) v(t);
             else {
               var n = C(),
-                r = q.location;
+                r = W.location;
               if (!k && (0, s.locationsAreEqual)(r, n)) return;
               if (T === (0, c.createPath)(n)) return;
-              (T = null), P(n);
+              (T = null), S(n);
             }
           },
-          P = function(e) {
+          S = function(e) {
             if (k) (k = !1), O();
             else {
               x.confirmTransitionTo(e, "POP", i, function(t) {
@@ -10851,7 +11079,7 @@
             }
           },
           _ = function(e) {
-            var t = q.location,
+            var t = W.location,
               n = A.lastIndexOf((0, c.createPath)(t));
             -1 === n && (n = 0);
             var r = A.lastIndexOf((0, c.createPath)(e));
@@ -10872,14 +11100,14 @@
               void 0 === t,
               "Hash history cannot push state; it is ignored"
             );
-            var n = (0, s.createLocation)(e, void 0, void 0, q.location);
+            var n = (0, s.createLocation)(e, void 0, void 0, W.location);
             x.confirmTransitionTo(n, "PUSH", i, function(e) {
               if (e) {
                 var t = (0, c.createPath)(n),
                   r = w(b + t);
                 if (y() !== r) {
                   (T = t), m(r);
-                  var o = A.lastIndexOf((0, c.createPath)(q.location)),
+                  var o = A.lastIndexOf((0, c.createPath)(W.location)),
                     i = A.slice(0, -1 === o ? 0 : o + 1);
                   i.push(t), (A = i), O({ action: "PUSH", location: n });
                 } else
@@ -10896,13 +11124,13 @@
               void 0 === t,
               "Hash history cannot replace state; it is ignored"
             );
-            var n = (0, s.createLocation)(e, void 0, void 0, q.location);
+            var n = (0, s.createLocation)(e, void 0, void 0, W.location);
             x.confirmTransitionTo(n, "REPLACE", i, function(e) {
               if (e) {
                 var t = (0, c.createPath)(n),
                   r = w(b + t);
                 y() !== r && ((T = t), v(r));
-                var o = A.indexOf((0, c.createPath)(q.location));
+                var o = A.indexOf((0, c.createPath)(W.location));
                 -1 !== o && (A[o] = t), O({ action: "REPLACE", location: n });
               }
             });
@@ -10924,9 +11152,9 @@
           B = function(e) {
             (H += e),
               1 === H
-                ? (0, d.addEventListener)(window, "hashchange", S)
+                ? (0, d.addEventListener)(window, "hashchange", P)
                 : 0 === H &&
-                  (0, d.removeEventListener)(window, "hashchange", S);
+                  (0, d.removeEventListener)(window, "hashchange", P);
           },
           z = !1,
           V = function() {
@@ -10940,7 +11168,7 @@
               }
             );
           },
-          W = function(e) {
+          q = function(e) {
             var t = x.appendListener(e);
             return (
               B(1),
@@ -10949,7 +11177,7 @@
               }
             );
           },
-          q = {
+          W = {
             length: t.length,
             action: "POP",
             location: R,
@@ -10960,15 +11188,15 @@
             goBack: D,
             goForward: F,
             block: V,
-            listen: W
+            listen: q
           };
-        return q;
+        return W;
       };
     t.default = b;
   },
   function(e, t, n) {
     "use strict";
-    var r = n(34);
+    var r = n(35);
     r.a;
   },
   function(e, t, n) {
@@ -10984,8 +11212,8 @@
       i = n.n(o),
       a = n(2),
       u = n.n(a),
-      l = n(48),
-      s = n(47),
+      l = n(49),
+      s = n(48),
       c =
         Object.assign ||
         function(e) {
@@ -11081,17 +11309,12 @@
   },
   function(e, t, n) {
     "use strict";
-    var r = n(37);
-    r.a;
-  },
-  function(e, t, n) {
-    "use strict";
     var r = n(38);
     r.a;
   },
   function(e, t, n) {
     "use strict";
-    var r = n(40);
+    var r = n(39);
     r.a;
   },
   function(e, t, n) {
@@ -11101,12 +11324,17 @@
   },
   function(e, t, n) {
     "use strict";
+    var r = n(42);
+    r.a;
+  },
+  function(e, t, n) {
+    "use strict";
     var r = n(9);
     r.a;
   },
   function(e, t, n) {
     "use strict";
-    var r = n(42);
+    var r = n(43);
     r.a;
   },
   function(e, t, n) {
@@ -11762,11 +11990,14 @@
             ? Object.setPrototypeOf(e, t)
             : (e.__proto__ = t));
     }
-    var a = n(0),
-      u = n.n(a),
-      l = n(125),
-      s = (n.n(l),
-      (function() {
+    function a(e) {
+      return { count: e.counter.count, menu: e.counter.menu };
+    }
+    var u = n(0),
+      l = n.n(u),
+      s = n(125),
+      c = (n.n(s), n(24)),
+      f = (function() {
         function e(e, t) {
           for (var n = 0; n < t.length; n++) {
             var r = t[n];
@@ -11779,41 +12010,94 @@
         return function(t, n, r) {
           return n && e(t.prototype, n), r && e(t, r), t;
         };
-      })()),
-      c = (function(e) {
+      })(),
+      p = (function(e) {
         function t() {
+          var e, n, i, a;
+          r(this, t);
+          for (var u = arguments.length, s = Array(u), c = 0; c < u; c++)
+            s[c] = arguments[c];
           return (
-            r(this, t),
-            o(
+            (n = i = o(
               this,
-              (t.__proto__ || Object.getPrototypeOf(t)).apply(this, arguments)
-            )
+              (e = t.__proto__ || Object.getPrototypeOf(t)).call.apply(
+                e,
+                [this].concat(s)
+              )
+            )),
+            (i.createSubMenu = function(e) {
+              return e.map(function(e, t) {
+                return l.a.createElement(
+                  "div",
+                  { className: "mb-5" },
+                  l.a.createElement(
+                    "h3",
+                    { className: "d-flex justify-content-start mb-3", key: t },
+                    e.name
+                  ),
+                  e.items.map(function(e, t) {
+                    return l.a.createElement(
+                      "div",
+                      { className: "d-flex justify-content-between mb-3" },
+                      l.a.createElement(
+                        "div",
+                        { className: "d-flex flex-column" },
+                        l.a.createElement(
+                          "span",
+                          { className: "d-flex lead" },
+                          l.a.createElement("strong", null, e.itemName)
+                        ),
+                        l.a.createElement(
+                          "span",
+                          { className: "d-flex" },
+                          e.description
+                        )
+                      ),
+                      l.a.createElement(
+                        "span",
+                        { className: "d-flex lead" },
+                        l.a.createElement("strong", null, e.price)
+                      )
+                    );
+                  })
+                );
+              });
+            }),
+            (i.createMenu = function(e) {
+              return e.map(function(e, t) {
+                return l.a.createElement(
+                  "div",
+                  null,
+                  l.a.createElement(
+                    "h1",
+                    {
+                      className: "d-flex justify-content-center text-uppercase",
+                      key: t
+                    },
+                    e.title
+                  ),
+                  i.createSubMenu(e.category.subCategory)
+                );
+              });
+            }),
+            (a = n),
+            o(i, a)
           );
         }
         return (
           i(t, e),
-          s(t, [
+          f(t, [
             {
               key: "render",
               value: function() {
-                return u.a.createElement(
+                return l.a.createElement(
                   "div",
                   { className: "menu-container" },
-                  u.a.createElement("h1", { className: "heading" }, "THE MENU"),
-                  u.a.createElement(
+                  l.a.createElement("h1", { className: "heading" }, "THE MENU"),
+                  l.a.createElement(
                     "div",
-                    { className: "menu-wrapper" },
-                    u.a.createElement("h2", { className: "" }, "STARTERS"),
-                    u.a.createElement(
-                      "div",
-                      { className: "row" },
-                      u.a.createElement("div", {
-                        className: "col-sm-12 col-md-6"
-                      }),
-                      u.a.createElement("div", {
-                        className: "col-sm-12 col-md-6"
-                      })
-                    )
+                    { className: "container menu-wrapper" },
+                    this.createMenu(this.props.menu)
                   )
                 );
               }
@@ -11821,8 +12105,8 @@
           ]),
           t
         );
-      })(a.Component);
-    t.a = c;
+      })(u.Component);
+    t.a = Object(c.b)(a)(p);
   },
   function(e, t, n) {
     e.exports = n.p + "static/media/menubg.01d3a0c0.jpg";
@@ -12120,7 +12404,7 @@
                     { className: "header-content" },
                     u.a.createElement(
                       l.a,
-                      { to: "/" },
+                      { to: "/online-restaurant" },
                       u.a.createElement("img", {
                         className: "logo",
                         src: c.a,
@@ -12191,4 +12475,4 @@
   function(e, t) {},
   function(e, t) {}
 ]);
-//# sourceMappingURL=main.954d9aa3.js.map
+//# sourceMappingURL=main.67f3c041.js.map

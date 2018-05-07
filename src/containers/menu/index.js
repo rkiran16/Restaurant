@@ -6,8 +6,12 @@ class Menu extends Component {
   createSubMenu = subMenu => {
     return subMenu.map((item, index) => (
       <div className="mb-5">
-        <h3 className="d-flex justify-content-start mb-3" key={index}>
+        <h3
+          className="d-flex flex-column justify-content-start mb-3"
+          key={index}
+        >
           {item.name}
+          <hr className="hr-tick" />
         </h3>
         {item.items.map((menuItem, menuItemIndex) => (
           <div className="d-flex justify-content-between mb-3">

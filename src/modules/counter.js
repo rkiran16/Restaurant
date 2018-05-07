@@ -186,6 +186,176 @@ const initialState = {
           }
         ]
       }
+    },
+    {
+      title: "South Indian",
+      category: {
+        subCategory: [
+          {
+            items: [
+              {
+                itemName: "Idly",
+                description:
+                  "Traditional steamed rice lentil cakes served with sambar and chutney",
+                price: "$4.99"
+              },
+              {
+                itemName: "Vada",
+                description:
+                  "Lentil doughnut shaped dumplings served with sambar and chutney",
+                price: "$4.99"
+              },
+              {
+                itemName: "Poonugulu",
+                description:
+                  "Indian hush puppies. Deep fried rice and until dumplings served with chutney",
+                price: "$6.99"
+              },
+              {
+                itemName: "Mysore Bajji",
+                description: "Deep fried batter dumplings served with chutney",
+                price: "$6.99"
+              },
+              {
+                itemName: "Poori",
+                description:
+                  "Whole wheat deep fried puffed bread with potato and onion kurma",
+                price: "$7.99"
+              },
+              {
+                itemName: "Chole Bhatura",
+                description:
+                  "Combination of chole (spicy chick peas) and fried breads",
+                price: "$7.99"
+              },
+              {
+                itemName: "Upma",
+                description:
+                  "Semolina is cooked with onions, mixed vegetables and a delicious tempering of chillies",
+                price: "$5.99"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      title: "DOSA",
+      category: {
+        subCategory: [
+          {
+            items: [
+              {
+                itemName: "Plain Dosa",
+                description: "Plain rice crispy crepe",
+                price: "$7.99"
+              },
+              {
+                itemName: "Cheese Dosa",
+                description:
+                  "comprises of crispy plain dosa topped with grated cheese.",
+                price: "$8.99"
+              },
+              {
+                itemName: "Masala Dosa",
+                description: "Rice crepe with stuffed Potato",
+                price: "$8.99"
+              },
+              {
+                itemName: "Onion Dosa",
+                description: "Thin Rice crepes with Onion topping",
+                price: "$7.99"
+              },
+              {
+                itemName: "Onion Masala Dosa",
+                description:
+                  "One large rice crepe sprinkled with finely chopped onions filled with potato & onion masala",
+                price: "$8.99"
+              },
+              {
+                itemName: "Mysore Masala Dosa",
+                description:
+                  "Thin rice crepe with layer of hot chutney filled with potatoes and onions",
+                price: "$8.99"
+              },
+              {
+                itemName: "Paneer Bujji Dosa",
+                description:
+                  "Thin rice crepe with layer of hot chutney filled with tomato, panner and onions",
+                price: "$8.99"
+              },
+              {
+                itemName: "Curry Bowl Special Spicy Dosa",
+                description:
+                  "Authentic thin rice crepe with curry bowl special sauce topping",
+                price: "$8.99"
+              },
+              {
+                itemName: "Plain Ravva Dosa",
+                description: "Thin Wheat and Lentil crepes with no filling",
+                price: "$8.99"
+              },
+              {
+                itemName: "Ravva Masala Dosa",
+                description:
+                  "One large crepe made from cream of wheat sprinkled with cumin and coriander leaves sprinkled with finely chopped onions and filled with potato and onion masala",
+                price: "$8.99"
+              },
+              {
+                itemName: "Onion Ravva Dosa",
+                description:
+                  "Wheat and Lentil crepes with Onions and Chili with no filling",
+                price: "$8.99"
+              },
+              {
+                itemName: "Plain Pasarattu",
+                description:
+                  "Whole Moong dhal and Rice crepe topped with Onions, Chilies and Ginger",
+                price: "$7.99"
+              },
+              {
+                itemName: "Pasarattu And Upma",
+                description:
+                  "Whole Moong dhal and Rice crepe topped with Onions, Chilies, Ginger, and upma",
+                price: "$8.99"
+              },
+              {
+                itemName: "Plain Uthappam",
+                description: "Indian thick pancake",
+                price: "$7.99"
+              },
+              {
+                itemName: "Masala Uthappam",
+                description:
+                  "Uttapam is a thick pancake, with toppings cooked right into the batter",
+                price: "$8.99"
+              },
+              {
+                itemName: "Onion And Hot Chilli Uthappam",
+                description:
+                  "Indian style pancakes with Onion and Chili toppings",
+                price: "$8.99"
+              },
+              {
+                itemName: "Onion Tomato Peas Uthappam",
+                description:
+                  "One thick pancake made in traditional style with a rice and lentil batter filled with onions, tomato, chillies or both",
+                price: "$8.99"
+              },
+              {
+                itemName: "Vegetable Uthappam",
+                description: "Indian pancake topped fresh vegetables",
+                price: "$8.99"
+              },
+              {
+                itemName: "Masala Dosa + 1 Idly + 1 Vada (Combo)",
+                description: "Rice crepe with potato stuffed and Idly Vada",
+                price: "$9.99"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 };

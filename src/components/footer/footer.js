@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Logo from "./logo.png";
+import Pin from "./pin.png";
 import { Link } from "react-router-dom";
 
 class Footer extends Component {
@@ -7,6 +8,7 @@ class Footer extends Component {
     return (
       <footer>
         <div className="location">
+          <img src={Pin} alt="location" className="wow bounceInDown" />
           <a
             target="_blank"
             href="https://www.google.com/maps/place/4141+Hacks+Cross+Rd,+Memphis,+TN+38125/@35.03852,-89.795654,14z/data=!4m5!3m4!1s0x887f909f026b28a5:0x7a0da12ffd1f3f6c!8m2!3d35.0355972!4d-89.7966869?hl=en"

@@ -8563,6 +8563,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: -1px;
+  z-index: 1030;
 }
 header .header-content {
   max-width: 1200px;
@@ -8727,7 +8728,7 @@ header .header-content .hamburger-container nav a:hover {
   background: url(/online-restaurant/static/media/menubg.01d3a0c0.jpg) no-repeat
     50% fixed;
   background-size: cover;
-  height: 1271px;
+  height: 100%;
 }
 .menu-container .heading {
   font-weight: 700;
@@ -8737,9 +8738,8 @@ header .header-content .hamburger-container nav a:hover {
   color: #fff;
 }
 .menu-container .menu-wrapper {
-  background-color: #fff;
+  background-color: hsla(0, 0%, 100%, 0.75);
   padding: 20px 10px;
-  width: 100%;
 }
 .home .introduction {
   background: url(/online-restaurant/static/media/home-bg.4debde2f.jpg)
@@ -8854,4 +8854,4 @@ button:hover {
   background-color: #fff;
   color: #000;
 }
-/*# sourceMappingURL=main.4e1d7f4f.css.map*/
+/*# sourceMappingURL=main.7777ebec.css.map*/

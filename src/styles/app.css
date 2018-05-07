@@ -8477,9 +8477,18 @@ footer {
 footer .location {
   background: #fafafa;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 footer .location:hover {
   background: rgba(238, 49, 36, 0.7);
+}
+footer .location img {
+  width: 75px;
+  height: 80px;
+  display: flex;
+  align-self: center;
 }
 footer .location a {
   display: block;
@@ -8750,12 +8759,13 @@ header .header-content .hamburger-container nav a:hover {
   font-weight: 700;
   text-align: center;
   padding-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   color: #ffffff;
 }
 .menu-container .menu-wrapper {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 20px 10px;
+  margin-bottom: 30px;
 }
 
 .home .introduction {
@@ -8851,4 +8861,15 @@ button:hover,
 .btn:hover {
   background-color: white;
   color: black;
+}
+
+.hr-tick {
+  display: block;
+  border: none;
+  width: 1.2em;
+  height: 0.2em;
+  margin: 0;
+  margin-top: 1rem;
+  background: #ee3124;
+  text-align: left;
 }
