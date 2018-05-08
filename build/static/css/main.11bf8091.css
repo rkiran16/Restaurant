@@ -8433,19 +8433,33 @@ footer {
   background: #f0f0f0;
   color: #333;
   width: 100%;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   -ms-flex-item-align: center;
   align-self: center;
 }
+footer,
+footer .location {
+  display: -ms-flexbox;
+  display: flex;
+}
 footer .location {
   background: #fafafa;
   text-align: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10px;
 }
 footer .location:hover {
   background: rgba(238, 49, 36, 0.7);
+}
+footer .location img {
+  width: 75px;
+  height: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 footer .location a {
   display: block;
@@ -8734,12 +8748,13 @@ header .header-content .hamburger-container nav a:hover {
   font-weight: 700;
   text-align: center;
   padding-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   color: #fff;
 }
 .menu-container .menu-wrapper {
   background-color: hsla(0, 0%, 100%, 0.75);
   padding: 20px 10px;
+  margin-bottom: 30px;
 }
 .home .introduction {
   background: url(/online-restaurant/static/media/home-bg.4debde2f.jpg)
@@ -8854,4 +8869,14 @@ button:hover {
   background-color: #fff;
   color: #000;
 }
-/*# sourceMappingURL=main.7777ebec.css.map*/
+.hr-tick {
+  display: block;
+  border: none;
+  width: 1.2em;
+  height: 0.2em;
+  margin: 0;
+  margin-top: 1rem;
+  background: #ee3124;
+  text-align: left;
+}
+/*# sourceMappingURL=main.11bf8091.css.map*/

@@ -23,17 +23,11 @@ class Header extends Component {
               <Link to="/menu" className="link">
                 Menu
               </Link>
-              <Link to="/" className="link">
+              <Link to="/catering" className="link">
                 Catering
               </Link>
-              <Link to="/" className="link">
-                Gallery
-              </Link>
-              <Link to="/" className="link">
-                Hours
-              </Link>
-              <Link to="/" className="link">
-                Location
+              <Link to="/location" className="link">
+                Location & Hours
               </Link>
             </nav>
           </div>

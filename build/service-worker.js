@@ -1,17 +1,21 @@
 "use strict";
 var precacheConfig = [
-    ["/online-restaurant/index.html", "7f6b0e80df946c936ce173a391484453"],
+    ["/online-restaurant/index.html", "712d6a1ca31d5e6fce0293050c1ac7d9"],
     [
-      "/online-restaurant/static/css/main.7777ebec.css",
-      "8250f49f377c2a2d2cf88f9a4eff48bd"
+      "/online-restaurant/static/css/main.11bf8091.css",
+      "05d2410f6281d36072b9285a13e56403"
     ],
     [
-      "/online-restaurant/static/js/main.67f3c041.js",
-      "8eab18fb8029f7c5fa18c81877c396f2"
+      "/online-restaurant/static/js/main.46918df0.js",
+      "7a0f6486ce7e50f0148aea259d2fd0ba"
     ],
     [
       "/online-restaurant/static/media/logo.7d9695ad.png",
       "7d9695ad1958bcaa0ae08b49c80d612e"
+    ],
+    [
+      "/online-restaurant/static/media/pin.2e6d67ad.png",
+      "2e6d67adab9c965ed1f80e168e0d3a9f"
     ]
   ],
   cacheName =

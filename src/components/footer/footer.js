@@ -31,11 +31,6 @@ class Footer extends Component {
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/about">
-                  ABOUT US
-                </Link>
-              </li>
-              <li>
                 <Link className="link" to="/menu">
                   MENU
                 </Link>
