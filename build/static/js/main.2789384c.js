@@ -12414,15 +12414,6 @@
                           null,
                           u.a.createElement(
                             p.a,
-                            { className: "link", to: "/about" },
-                            "ABOUT US"
-                          )
-                        ),
-                        u.a.createElement(
-                          "li",
-                          null,
-                          u.a.createElement(
-                            p.a,
                             { className: "link", to: "/menu" },
                             "MENU"
                           )
@@ -12625,23 +12616,13 @@
                         ),
                         u.a.createElement(
                           l.a,
-                          { to: "/", className: "link" },
+                          { to: "/catering", className: "link" },
                           "Catering"
                         ),
                         u.a.createElement(
                           l.a,
-                          { to: "/", className: "link" },
-                          "Gallery"
-                        ),
-                        u.a.createElement(
-                          l.a,
-                          { to: "/", className: "link" },
-                          "Hours"
-                        ),
-                        u.a.createElement(
-                          l.a,
-                          { to: "/", className: "link" },
-                          "Location"
+                          { to: "/location", className: "link" },
+                          "Location & Hours"
                         )
                       )
                     )
@@ -12661,4 +12642,4 @@
   function(e, t) {},
   function(e, t) {}
 ]);
-//# sourceMappingURL=main.46918df0.js.map
+//# sourceMappingURL=main.2789384c.js.map

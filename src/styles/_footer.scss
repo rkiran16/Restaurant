@@ -18,8 +18,8 @@ footer {
     }
 
     img {
-        width: 75px;
-        height: 80px;
+         width: 50px;
+        height: 60px;
         display: flex;
         align-self: center;
     }
@@ -30,6 +30,10 @@ footer {
       font-weight: $font-weight-semibold;
       font-size: 18px;
       padding: 30px;
+
+      @include media-breakpoint-down(md) {
+          padding: 10px;
+      }
 
       &:hover {
         color: $white;

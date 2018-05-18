@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import menubg from "./menubg.jpg";
 import { connect } from "react-redux";
+import Footer from "../../components/footer/footer";
 
 class Menu extends Component {
   createSubMenu = subMenu => {
@@ -51,6 +52,7 @@ class Menu extends Component {
         <div className="container menu-wrapper">
           {this.createMenu(this.props.menu)}
         </div>
+        <Footer />
       </div>
     );
   }

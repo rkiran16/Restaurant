@@ -8,10 +8,10 @@ class Footer extends Component {
     return (
       <footer>
         <div className="location">
-          <img src={Pin} alt="location" className="wow bounceInDown" />
+          <img src={Pin} alt="location" className="wow pulse" />
           <a
             target="_blank"
-            href="https://www.google.com/maps/place/4141+Hacks+Cross+Rd,+Memphis,+TN+38125/@35.03852,-89.795654,14z/data=!4m5!3m4!1s0x887f909f026b28a5:0x7a0da12ffd1f3f6c!8m2!3d35.0355972!4d-89.7966869?hl=en"
+            href="https://www.google.com/maps/place/1700+Fennell+St,+Maitland,+FL+32751/@28.6272448,-81.4011086,17z/data=!3m1!4b1!4m5!3m4!1s0x88e770e38af9c3a5:0x829ced45f27b7e61!8m2!3d28.6272401!4d-81.3989199?hl=en"
           >
             Curry Bowl on Google Maps{" "}
           </a>
@@ -57,11 +57,11 @@ class Footer extends Component {
           </div>
           <div className="contacts-container">
             <h5>REACH US</h5>
-            <p>4141 Hacks Cross Road, Memphis, TN 38125</p>
+            <p>1700 Fennell St, Maitland, FL 32751</p>
             <p>
               CALL US:{" "}
-              <a className="link" href="tel://1-901-207-6051">
-                (901) 207-6051
+              <a className="link" href="tel://1-407-745-0868">
+                (407) 745-0868
               </a>
             </p>
 

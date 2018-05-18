@@ -3,6 +3,7 @@ import WOW from "wow.js";
 import homeBG from "./home-bg.jpg";
 import { Link } from "react-router-dom";
 import ourStoryImage from "./restaurant.jpg";
+import Footer from "../../components/footer/footer";
 
 class Home extends Component {
   componentDidMount() {
@@ -45,6 +46,7 @@ class Home extends Component {
             <img src={ourStoryImage} className="img-fluid" alt="Our Story" />
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
