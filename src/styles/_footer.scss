@@ -6,48 +6,6 @@ footer {
   flex-direction: column;
   align-self: center;
 
-  .location {
-    background: $very-light-gray;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-
-    &:hover {
-      background: rgba($bright-red, 0.7);
-    }
-
-    img {
-         width: 50px;
-        height: 60px;
-        display: flex;
-        align-self: center;
-    }
-
-    a {
-      display: block;
-      color: $very-dark-gray;
-      font-weight: $font-weight-semibold;
-      font-size: 18px;
-      padding: 30px;
-
-      @include media-breakpoint-down(md) {
-          padding: 10px;
-      }
-
-      &:hover {
-        color: $white;
-      }
-    }
-  }
-
-  .copyright {
-    display: block;
-    padding: 30px 0;
-    text-align: center;
-    background: $very-light-gray;
-  }
-
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -69,7 +27,7 @@ footer {
       }
     }
 
-    .logo-container {
+    .logo-container-footer {
       text-align: center;
       margin-bottom: 30px;
       .logo {

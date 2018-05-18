@@ -58,6 +58,8 @@ $very-light-gray : #fafafa;
 $very-dark-gray : #333333;
 $bright-red : #EE3124;
 
+$logo-zindex : 3;
+
 
 
 @import "link";
@@ -67,6 +69,10 @@ $bright-red : #EE3124;
 @import "home";
 @import "button";
 @import "location";
+@import "copy-right";
+@import "store-location";
+@import "logo";
+@import "about";
 
 .hr-tick {
   display: block;

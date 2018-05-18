@@ -17,4 +17,21 @@ button, .btn {
      background-color: white;
      color: black;
   }
+
+  &--ghost {
+     border: 2px solid;
+     background-color: transparent;
+     font-size: 14px;
+
+     &:hover {
+        background-color: $bright-red;
+        border-color: $bright-red;
+        color: $white;
+     }
+
+     @include media-breakpoint-up(sm) {
+       padding: 2em 2.5em;
+       font-size: 18px;
+     }
+  }
 }
