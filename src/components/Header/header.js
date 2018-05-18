@@ -20,13 +20,13 @@ class Header extends Component {
               </div>
             </label>
             <nav>
-              <Link to="/menu" className="link">
+              <Link to="/online-restaurant/menu" className="link">
                 Menu
               </Link>
-              <Link to="/catering" className="link">
+              <Link to="/online-restaurant/catering" className="link">
                 Catering
               </Link>
-              <Link to="/location" className="link">
+              <Link to="/online-restaurant/location" className="link">
                 Location & Hours
               </Link>
             </nav>

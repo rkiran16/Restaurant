@@ -11,9 +11,9 @@ const App = () => (
     <Header />
     <Route exact path="/" component={Home} />
     <Route exact path="/online-restaurant" component={Home} />
-    <Route exact path="/menu" component={Menu} />
-    <Route exact path="/location" component={Location} />
-    <Route exact path="/catering" component={Catering} />
+    <Route exact path="/online-restaurant/menu" component={Menu} />
+    <Route exact path="/online-restaurant/location" component={Location} />
+    <Route exact path="/online-restaurant/catering" component={Catering} />
   </main>
 );
 

@@ -33,6 +33,7 @@ export default class Map extends Component {
     return (
       <div className="google-map">
         <GoogleMapReact
+          bootstrapURLKeys={{ key: "AIzaSyC20lOAUf9qlJ90NOoPV8Zmsnx74ywOV_w" }}
           defaultCenter={this.props.center}
           options={this.createMapOptions}
           defaultZoom={this.props.zoom}

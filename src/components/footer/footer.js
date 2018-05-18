@@ -26,17 +26,17 @@ class Footer extends Component {
             <h5>SITEMAP</h5>
             <ul>
               <li>
-                <Link className="link" to="/">
+                <Link className="link" to="/online-restaurant">
                   HOME
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/menu">
+                <Link className="link" to="/online-restaurant/menu">
                   MENU
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/catering">
+                <Link className="link" to="/online-restaurant/catering">
                   CATERING
                 </Link>
               </li>

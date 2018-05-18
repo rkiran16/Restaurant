@@ -21,7 +21,7 @@ class Home extends Component {
               "Curry Bowl" is an authentic yet innovative Indian Restaurant,
               with a menu that honors tradition while reinventing it.
             </p>
-            <Link to="/menu" className="btn">
+            <Link to="/online-restaurant/menu" className="btn">
               View Our Menu
             </Link>
           </div>
