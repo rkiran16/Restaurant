@@ -2,20 +2,22 @@ import React, { Component } from "react";
 import menubg from "./menubg.jpg";
 import { connect } from "react-redux";
 import Footer from "../../components/footer/footer";
+import Collapsible from "react-collapsible";
 
 class Menu extends Component {
-  createSubMenu = subMenu => {
-    return subMenu.map((item, index) => (
-      <div className="mb-5">
-        <h3
-          className="d-flex flex-column justify-content-start mb-3"
-          key={index}
-        >
-          {item.name}
-          <hr className="hr-tick" />
-        </h3>
+  createMenu = menu => {
+    return menu.map((item, index) => (
+      <Collapsible
+        key={index}
+        trigger={item.name}
+        lazyRender={true}
+        open={index == 0 ? true : false}
+      >
         {item.items.map((menuItem, menuItemIndex) => (
-          <div className="d-flex justify-content-between mb-3">
+          <div
+            key={menuItemIndex}
+            className="d-flex justify-content-between px-4 py-2"
+          >
             <div className="d-flex flex-column">
               <span className="d-flex lead">
                 <strong>{menuItem.itemName}</strong>
@@ -27,21 +29,7 @@ class Menu extends Component {
             </span>
           </div>
         ))}
-      </div>
-    ));
-  };
-
-  createMenu = menu => {
-    return menu.map((item, index) => (
-      <div>
-        <h1
-          className="d-flex justify-content-center text-uppercase"
-          key={index}
-        >
-          {item.title}
-        </h1>
-        {this.createSubMenu(item.category.subCategory)}
-      </div>
+      </Collapsible>
     ));
   };
 

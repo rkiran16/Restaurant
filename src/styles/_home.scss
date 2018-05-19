@@ -4,4 +4,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: $logo-zindex;
+
+  @include media-breakpoint-down(md) {
+     top:60%;
+     left:50%;
+    transform: translate(-50%, -60%);
+  }
 }

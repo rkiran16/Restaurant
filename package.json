@@ -16,6 +16,7 @@
     "npm-run-all": "^4.1.2",
     "react": "^16.2.0",
     "react-background-slideshow": "^1.0.3",
+    "react-collapsible": "^2.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",

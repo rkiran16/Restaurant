@@ -1,3 +1,4 @@
+
 .menu-container {
   background: url("../containers/menu/menubg.jpg ") no-repeat center fixed;
   background-size: cover;
@@ -6,14 +7,51 @@
   .heading {
      font-weight: $font-weight-bold;
      text-align: center;
-     padding-top: 100px;
+     padding-top: 15%;
      margin-bottom: 40px;
      color: $white;
   }
 
   .menu-wrapper {
-      background-color: rgba(255,255,255,0.75);
-      padding: 20px 10px;
       margin-bottom: 30px;
+  }
+
+  .Collapsible {
+    background-color: white;
+
+    &__trigger {
+      display: block;
+      font-weight: $font-weight-semibold;
+      cursor: pointer;
+      position: relative;
+      padding: 10px;
+      color: $very-dark-gray;
+      background-color: $light-gray;
+      font-size: 20px;
+      border-top: 1px solid $very-dark-gray;
+
+      &:after {
+        content: "+";
+        font-style: normal;
+        font-weight: normal;
+        position: absolute;
+        font-size: 40px;
+        right: 10px;
+        top: -8px;
+        display: block;
+        transition: transform 300ms;
+      }
+
+      &.is-open {
+         &:after {
+           content: '-';
+         }
+      }
+
+      &.is-disabled {
+        opacity: 0.5;
+        background-color: grey;
+      }
+    }
   }
 }

@@ -1,13 +1,29 @@
 "use strict";
 var precacheConfig = [
-    ["/online-restaurant/index.html", "845727929e803b2925f8cee1389662c6"],
+    ["/online-restaurant/index.html", "6fad40fa0dd32ac6089cd0708f9e48e8"],
     [
-      "/online-restaurant/static/css/main.92d3593d.css",
-      "7ff29a6c8950d616df9b916833cfb5e8"
+      "/online-restaurant/static/css/main.aea516b1.css",
+      "d1e40dad0195916bd51a486187895e6c"
     ],
     [
-      "/online-restaurant/static/js/main.e663b2e9.js",
-      "cbc8030836b57b82a25135482ba18491"
+      "/online-restaurant/static/js/main.d2057bfd.js",
+      "486be9e334b3cee582484837c1d5ebde"
+    ],
+    [
+      "/online-restaurant/static/media/image-1.e0eb297c.jpg",
+      "e0eb297c3eb40c5f5b2423575b2b8cb7"
+    ],
+    [
+      "/online-restaurant/static/media/image-2.d347fc1e.jpg",
+      "d347fc1e06b8525bfaedeab4b9455d5b"
+    ],
+    [
+      "/online-restaurant/static/media/image-3.5206007a.jpg",
+      "5206007aae3d36edd4b65cc3d7313cfe"
+    ],
+    [
+      "/online-restaurant/static/media/image-4.2f8d8e4c.jpg",
+      "2f8d8e4c671cf7a2a7f9f06650a1bd05"
     ],
     [
       "/online-restaurant/static/media/logo.7d9695ad.png",
@@ -37,16 +53,16 @@ var precacheConfig = [
         })
       : Promise.resolve(t);
   },
-  createCacheKey = function(e, t, n, r) {
-    var a = new URL(e);
+  createCacheKey = function(e, t, n, a) {
+    var r = new URL(e);
     return (
-      (r && a.pathname.match(r)) ||
-        (a.search +=
-          (a.search ? "&" : "") +
+      (a && r.pathname.match(a)) ||
+        (r.search +=
+          (r.search ? "&" : "") +
           encodeURIComponent(t) +
           "=" +
           encodeURIComponent(n)),
-      a.toString()
+      r.toString()
     );
   },
   isPathWhitelisted = function(e, t) {
@@ -83,9 +99,9 @@ var precacheConfig = [
     precacheConfig.map(function(e) {
       var t = e[0],
         n = e[1],
-        r = new URL(t, self.location),
-        a = createCacheKey(r, hashParamName, n, /\.\w{8}\./);
-      return [r.toString(), a];
+        a = new URL(t, self.location),
+        r = createCacheKey(a, hashParamName, n, /\.\w{8}\./);
+      return [a.toString(), r];
     })
   );
 function setOfCachedUrls(e) {
@@ -104,8 +120,8 @@ self.addEventListener("install", function(e) {
   e.waitUntil(
     caches
       .open(cacheName)
-      .then(function(r) {
-        return setOfCachedUrls(r).then(function(n) {
+      .then(function(a) {
+        return setOfCachedUrls(a).then(function(n) {
           return Promise.all(
             Array.from(urlsToCacheKeys.values()).map(function(t) {
               if (!n.has(t)) {
@@ -119,7 +135,7 @@ self.addEventListener("install", function(e) {
                         e.status
                     );
                   return cleanResponse(e).then(function(e) {
-                    return r.put(t, e);
+                    return a.put(t, e);
                   });
                 });
               }
@@ -158,14 +174,14 @@ self.addEventListener("install", function(e) {
           t.request.url,
           ignoreUrlParametersMatching
         ),
-        r = "index.html";
+        a = "index.html";
       (e = urlsToCacheKeys.has(n)) ||
-        ((n = addDirectoryIndex(n, r)), (e = urlsToCacheKeys.has(n)));
-      var a = "/online-restaurant/index.html";
+        ((n = addDirectoryIndex(n, a)), (e = urlsToCacheKeys.has(n)));
+      var r = "/online-restaurant/index.html";
       !e &&
         "navigate" === t.request.mode &&
         isPathWhitelisted(["^(?!\\/__).*"], t.request.url) &&
-        ((n = new URL(a, self.location).toString()),
+        ((n = new URL(r, self.location).toString()),
         (e = urlsToCacheKeys.has(n))),
         e &&
           t.respondWith(
