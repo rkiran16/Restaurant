@@ -1,13 +1,13 @@
 "use strict";
 var precacheConfig = [
-    ["/online-restaurant/index.html", "6fad40fa0dd32ac6089cd0708f9e48e8"],
+    ["/online-restaurant/index.html", "a7291ad0748d8a4ea11b8cb55ef8863a"],
     [
-      "/online-restaurant/static/css/main.aea516b1.css",
-      "d1e40dad0195916bd51a486187895e6c"
+      "/online-restaurant/static/css/main.bd717613.css",
+      "f90c42258d030b9ae20981cb6d9a5ef3"
     ],
     [
-      "/online-restaurant/static/js/main.d2057bfd.js",
-      "486be9e334b3cee582484837c1d5ebde"
+      "/online-restaurant/static/js/main.19ec6b67.js",
+      "3edfe86a043178a393299e5c6520f170"
     ],
     [
       "/online-restaurant/static/media/image-1.e0eb297c.jpg",
@@ -24,6 +24,10 @@ var precacheConfig = [
     [
       "/online-restaurant/static/media/image-4.2f8d8e4c.jpg",
       "2f8d8e4c671cf7a2a7f9f06650a1bd05"
+    ],
+    [
+      "/online-restaurant/static/media/location.c86ad162.png",
+      "c86ad162891bc93f429131ea24bb6b89"
     ],
     [
       "/online-restaurant/static/media/logo.7d9695ad.png",

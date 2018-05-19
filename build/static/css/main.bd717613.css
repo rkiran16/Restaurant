@@ -8581,6 +8581,11 @@ header nav a:hover {
   margin-bottom: 40px;
   color: #fff;
 }
+@media (max-width: 991px) {
+  .menu-container .heading {
+    padding-top: 62%;
+  }
+}
 .menu-container .menu-wrapper {
   margin-bottom: 30px;
 }
@@ -8685,13 +8690,12 @@ button--ghost:hover {
     font-size: 18px;
   }
 }
-.map-container .pin {
-  width: 50px;
-  height: 60px;
+.map-container .location-image {
+  display: block;
 }
-.map-container .google-map {
+.map-container .location-image img {
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 .map-container .location-details {
   background-color: #37485a;
@@ -8904,4 +8908,4 @@ button--ghost:hover {
   background: #ee3124;
   text-align: left;
 }
-/*# sourceMappingURL=main.aea516b1.css.map*/
+/*# sourceMappingURL=main.bd717613.css.map*/
