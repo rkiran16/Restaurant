@@ -8696,6 +8696,7 @@ button--ghost:hover {
 .map-container .location-image img {
   width: 100%;
   height: auto;
+  min-height: 300px;
 }
 .map-container .location-details {
   background-color: #37485a;
@@ -8709,11 +8710,11 @@ button--ghost:hover {
 }
 @media (max-width: 991px) {
   .map-container .location-details {
-    padding: 20px;
+    padding: 10px;
   }
 }
 .map-container .location-details .content {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
   color: #fff;
   display: -ms-flexbox;
@@ -8908,4 +8909,4 @@ button--ghost:hover {
   background: #ee3124;
   text-align: left;
 }
-/*# sourceMappingURL=main.bd717613.css.map*/
+/*# sourceMappingURL=main.ac29c1b8.css.map*/

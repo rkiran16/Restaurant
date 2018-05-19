@@ -19,6 +19,7 @@ class Home extends Component {
         <BackgroundSlideshow
           images={[image1, image2, image3, image4]}
           disableClick={true}
+          animationDelay={1000}
         />
       </div>
     );

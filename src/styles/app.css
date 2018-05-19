@@ -8704,6 +8704,7 @@ button--ghost:hover,
 .map-container .location-image img {
   width: 100%;
   height: auto;
+  min-height: 300px;
 }
 
 .map-container .location-details {
@@ -8715,11 +8716,11 @@ button--ghost:hover,
 }
 @media (max-width: 991px) {
   .map-container .location-details {
-    padding: 20px;
+    padding: 10px;
   }
 }
 .map-container .location-details .content {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
   color: #ffffff;
   display: flex;

@@ -5,6 +5,7 @@
      img {
         width: 100%;
         height: auto;
+        min-height: 300px;
      }
   }
 
@@ -16,11 +17,11 @@
     justify-content: center;
 
     @include media-breakpoint-down(md) {
-      padding: 20px;
+      padding: 10px;
     }
 
     .content {
-      width: 400px;
+      max-width: 400px;
       margin: 0 auto;
       color: $white;
       display: flex;

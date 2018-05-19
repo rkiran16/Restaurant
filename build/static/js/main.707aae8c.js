@@ -11865,7 +11865,8 @@
                   ),
                   u.a.createElement(l.a, {
                     images: [c.a, p.a, h.a, y.a],
-                    disableClick: !0
+                    disableClick: !0,
+                    animationDelay: 1e3
                   })
                 );
               }
@@ -14118,4 +14119,4 @@
   function(e, t) {},
   function(e, t) {}
 ]);
-//# sourceMappingURL=main.19ec6b67.js.map
+//# sourceMappingURL=main.707aae8c.js.map
