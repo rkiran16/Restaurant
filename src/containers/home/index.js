@@ -10,10 +10,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Link
-          to="/online-restaurant/about"
-          className="btn welcome-btn btn--ghost"
-        >
+        <Link to="/restaurant/about" className="btn welcome-btn btn--ghost">
           Welcome to Curry Bowl
         </Link>
         <BackgroundSlideshow

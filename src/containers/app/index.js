@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Home from "../home";
 import Menu from "../menu";
 import About from "../about";
@@ -14,11 +14,11 @@ const App = () => (
     <Header />
     <Logo />
     <Route exact path="/" component={Home} />
-    <Route exact path="/online-restaurant" component={Home} />
-    <Route exact path="/online-restaurant/about" component={About} />
-    <Route exact path="/online-restaurant/menu" component={Menu} />
-    <Route exact path="/online-restaurant/location" component={Location} />
-    <Route exact path="/online-restaurant/catering" component={Catering} />
+    <Route exact path="/restaurant" component={Home} />
+    <Route exact path="/restaurant/about" component={About} />
+    <Route exact path="/restaurant/menu" component={Menu} />
+    <Route exact path="/restaurant/location" component={Location} />
+    <Route exact path="/restaurant/catering" component={Catering} />
     <CopyRight />
   </main>
 );

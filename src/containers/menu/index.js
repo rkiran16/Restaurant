@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import menubg from "./menubg.jpg";
 import { connect } from "react-redux";
 import Footer from "../../components/footer/footer";
 import Collapsible from "react-collapsible";
@@ -11,7 +10,7 @@ class Menu extends Component {
         key={index}
         trigger={item.name}
         lazyRender={true}
-        open={index == 0 ? true : false}
+        open={index === 0}
       >
         {item.items.map((menuItem, menuItemIndex) => (
           <div

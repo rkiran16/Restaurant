@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wow.js";
 import { Link } from "react-router-dom";
-import homeBg from "./home-bg.jpg";
 import ourStoryImage from "./restaurant.jpg";
 import Footer from "../../components/footer/footer";
 import StoreLocation from "../../components/footer/storelocation";
@@ -22,7 +21,7 @@ class About extends Component {
               "Curry Bowl" is an authentic yet innovative Indian Restaurant,
               with a menu that honors tradition while reinventing it.
             </p>
-            <Link to="/online-restaurant/menu" className="btn">
+            <Link to="/restaurant/menu" className="btn">
               View Our Menu
             </Link>
           </div>

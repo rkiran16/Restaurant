@@ -8,6 +8,7 @@ class Location extends Component {
         <a
           target="_blank"
           className="location-image"
+          rel="noopener noreferrer"
           href="https://www.google.com/maps/place/1700+Fennell+St,+Maitland,+FL+32751/@28.6272448,-81.4011086,17z/data=!3m1!4b1!4m5!3m4!1s0x88e770e38af9c3a5:0x829ced45f27b7e61!8m2!3d28.6272401!4d-81.3989199?hl=en"
         >
           <img src={locationImg} alt="CURRY BOWL" />
